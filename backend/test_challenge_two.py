@@ -1,4 +1,4 @@
-from agents.forensic_agent import create_forensic_agent
+from backend.agents.forensic_agent_challenge2 import create_forensic_agent
 from agents.extractive_qa_agent import create_extractive_agent
 
 def main():

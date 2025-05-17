@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from agents.forensic_agent import create_forensic_agent
+from backend.agents.forensic_agent_challenge2 import create_forensic_agent
 from ch1_onsite import process_finance_scenario
 
 app = FastAPI()
