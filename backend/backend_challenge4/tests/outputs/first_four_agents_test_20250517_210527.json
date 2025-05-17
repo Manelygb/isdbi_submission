@@ -1,0 +1,53 @@
+{
+  "case_id": "83260a48-6d98-428e-b7d6-4c79144c676d",
+  "request_timestamp": "2025-05-17T21:05:20.382163",
+  "client_details": {
+    "client_name": "Algerian Development Corporation",
+    "client_type": "company",
+    "financial_data_csv": "year,non_current_assets,intangible_assets,tangible_assets,financial_assets,current_assets,stocks,receivables,cash,total_assets,current_assets.1,issued_capital,retained_earnings,net_income,long_term_debt,short_term_debt,supplier_debt,tax_liabilities,other_liabilities,total_liabilities,revenue\n2022,782439094.5,523415.5,772665851,9249828.0,570999362.6,316981377,246159566.6,7858419.0,1353438475,1171674585,629336748,135000000,494336748.0,542337837.0,181733872.0,90114805.0,26791831.0,52844085.0,1353438457,6750000000\n2023,5073299265.0,207465.81,5059366014,14315281.1,644060603.9,336529020,301706574.9,5825009.86,5717359869,5476715831,5059000145,170935371,4888064774.0,417715686.7,240644037.4,112741870.1,4869088314.0,48070333.09,5717359868,17457474193\n2024,5062251073.0,175991.66,5047759800,17286370.5,719986414.2,568591239,129978915.2,21416260.22,5782237487,5538833601,5178762419,4923617330,255145088.6,360071183.4,243403884.8,95965300.05,45910130.69,45178303.44,5782237487,5102901771\n",
+    "experience": "10 years in real estate and infrastructure development",
+    "industry": "Construction and Development"
+  },
+  "project_details": {
+    "project_name": "Green Energy Industrial Park",
+    "description": "Development of an industrial park with integrated renewable energy systems",
+    "sector": "Infrastructure",
+    "location": "Algiers, Algeria",
+    "estimated_cost": 25000000,
+    "expected_revenue": 5000000,
+    "payback_period": 8,
+    "duration_months": 36,
+    "objective": "Create a state-of-the-art industrial park with solar power generation, smart grid systems, and sustainable water management",
+    "risks": "Construction delays; regulatory approvals; market demand fluctuations",
+    "social_impact": "Job creation for approximately 2,000 people; reducing carbon emissions by 30,000 tons annually",
+    "environmental_considerations": "Solar power generation; water recycling; energy-efficient buildings"
+  },
+  "enterprise_audit_results": {
+    "score": 0,
+    "summary": "Error during financial analysis.",
+    "key_ratios": {},
+    "warnings": [
+      "Error during enterprise audit: 'Year'"
+    ]
+  },
+  "project_evaluation_results": null,
+  "selected_contract_details": null,
+  "formalized_contract": null,
+  "processing_log": [
+    {
+      "agent": "Test Script",
+      "timestamp": "2025-05-17T21:05:20.382187",
+      "message": "PCO initialized for testing first 4 agents.",
+      "status": "system"
+    },
+    {
+      "agent": "EnterpriseAuditAgent",
+      "timestamp": "2025-05-17T21:05:26.984450",
+      "status": "completed",
+      "message": "Error during enterprise audit: 'Year'",
+      "completed_at": "2025-05-17T21:05:27.087069"
+    }
+  ],
+  "current_status": "error_enterprise_audit",
+  "error_info": null
+}

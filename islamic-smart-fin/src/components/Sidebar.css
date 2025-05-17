@@ -1,0 +1,91 @@
+.sidebar {
+  width: 5rem;
+  height: 100vh;
+  background-color: #ffffff;
+  border-right: 1px solid #eee;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h3 {
+  font-size: 1.1rem;
+  color: #1B2559;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s, font-weight 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: #5f39f6;
+}
+
+.nav-link.active {
+  color: #5f39f6;
+  font-weight: bold;
+  border-left: 4px solid #5f39f6;
+  padding-left: 10px;
+  background-color: #f5f5ff;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Icon Styling */
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; /* space between icon and text */
+  display: block; /* Make sure the icons are displayed */
+}
+
+.nav-icon-hover {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px; /* space between icon and text */
+  display: none; /* Hidden by default */
+}
+
+/* Show the hovered icon when the link is hovered */
+.nav-link:hover .nav-icon {
+  display: none;
+}
+
+.nav-link:hover .nav-icon-hover {
+  display: block;
+}
+
+/* Show the hovered icon when the link is active */
+.nav-link.active .nav-icon {
+  display: none;
+}
+
+.nav-link.active .nav-icon-hover {
+  display: block;
+}
+
+/* Ensuring the line under sidebar is visible */
+.line {
+  border-bottom: 0.5px solid rgba(7, 11, 53, 0.185);
+  height: 0;
+  width: 100%;
+}

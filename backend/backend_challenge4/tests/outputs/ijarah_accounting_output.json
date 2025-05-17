@@ -1,0 +1,62 @@
+{
+  "case_id": "TEST_IJARAH_001",
+  "request_timestamp": "2025-05-17T22:03:13.862203",
+  "client_details": {
+    "client_name": "ABC Test Company",
+    "client_type": "company",
+    "experience": "10 years in industry"
+  },
+  "project_details": {
+    "project_name": "Test Ijarah Project",
+    "objective": "Test the accounting treatment for Ijarah contract",
+    "estimated_cost": 1000000,
+    "expected_revenue": 1200000,
+    "sector": "Manufacturing"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Ijarah",
+    "justification": "Selected Ijarah as it suits the project nature.",
+    "key_parameters_required": [
+      "price",
+      "delivery_schedule",
+      "specifications"
+    ],
+    "relevant_aaoifi_fas": [
+      "Relevant FAS Standard"
+    ]
+  },
+  "processing_log": [
+    {
+      "agent": "TestInitializer",
+      "timestamp": "2025-05-17T22:03:13.862248",
+      "message": "Test PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "MockContractDraftingAgent",
+      "timestamp": "2025-05-17T22:03:13.862311",
+      "status": "completed",
+      "message": "Contract draft completed for Ijarah contract.",
+      "completed_at": "2025-05-17T22:03:13.962502"
+    },
+    {
+      "agent": "AccountingAgent",
+      "timestamp": "2025-05-17T22:03:13.989932",
+      "status": "completed",
+      "message": "Accounting entries generation completed for Ijarah contract.",
+      "completed_at": "2025-05-17T22:03:30.109036"
+    }
+  ],
+  "current_status": "pending_shariah_validation",
+  "contract_draft": {
+    "content": "\n# ISLAMIC FINANCING SCENARIO: IJARAH\n\n## CONTRACT OVERVIEW\nThis Ijarah Muntahia Bittamleek (lease ending with ownership) structure will finance office space for ABC Company. The bank will purchase the property and lease it to the client, with ownership transferring at the end of the lease term.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Ijarah Muntahia Bittamleek\n- **Parties:** XYZ Islamic Bank (Lessor), ABC Company (Lessee)\n- **Subject Matter:** Commercial office space in downtown business district\n- **Timeline:** 5-year lease period with ownership transfer at the end\n\n## FINANCIAL STRUCTURE\n- **Total Asset Cost:** $1,000,000\n- **Monthly Rental:** $20,000\n- **Total Lease Amount:** $1,200,000 (60 months \u00d7 $20,000)\n- **Profit Component:** $200,000 (Total Lease Amount - Asset Cost)\n- **Transfer Mechanism:** Gift (Hibah) at end of lease term if all payments are made\n",
+    "contract_type": "Ijarah",
+    "version": "1.0",
+    "status": "draft_completed"
+  },
+  "accounting_entries_report": {
+    "content": "Based on the provided scenario and AAOIFI guidelines, here is the complete multi-stage accounting treatment from the lessee's perspective using the Underlying Asset Cost Method for the Ijarah Muntahia Bittamleek contract.\n\n### A. Cost & Profit Computations\n\n1. **Total Cost of the Leased Asset**:  \n   - Total Asset Cost = $1,000,000\n\n2. **Right-of-Use (ROU) Asset**:  \n   - Since ownership transfer is highly probable through a gift at the end of the lease term, we do not deduct any purchase-option price.  \n   - ROU Asset = Total Asset Cost = $1,000,000\n\n3. **Total Lease Payments**:  \n   - Total Lease Payments = $1,200,000 (60 months \u00d7 $20,000)\n\n4. **Deferred Ijarah Cost**:  \n   - Deferred Ijarah Cost = Total Lease Payments \u2013 ROU Asset  \n   - Deferred Ijarah Cost = $1,200,000 - $1,000,000 = $200,000\n\n5. **Terminal Value Difference**:  \n   - Since the transfer mechanism is a gift, we consider the residual value to be $0.  \n   - Terminal Value Difference = Residual Value \u2013 Purchase Option = $0 - $0 = $0\n\n6. **Amortizable Amount**:  \n   - Amortizable Amount = ROU Asset \u2013 Terminal Value Difference  \n   - Amortizable Amount = $1,000,000 - $0 = $1,000,000\n\n---\n\n### B. Journal Entries\n\n**1. At Lease Commencement:**\n\n```plaintext\nDr. Right-of-Use Asset (ROU)          $1,000,000\nDr. Deferred Ijarah Cost (Expense)    $200,000\nCr. Ijarah Liability                    $1,200,000\n```\n\n**2. Annual Accrual of Rental & Income Recognition:**\n\nFor each year (5 years), the entries will be as follows:\n\n```plaintext\nDr. Accrued Rent Receivable / Bank     $240,000  (Annual Rent: $20,000 \u00d7 12)\nCr. Ijarah Income (P&L)                $240,000\n```\n\n**3. (Optional) Ownership Transfer at End of Lease:**\n\nIf ownership is transferred at the end of the lease:\n\n```plaintext\nDr. Ijarah Liability                    $1,200,000\nCr. Cash / Bank / Other Assets          $1,200,000  (Assuming the gift is recognized as a transfer without cash)\n```\n\n---\n\n### C. Summary General Ledger Table\n\n| Account                        | Year 1 | Year 2 | Year 3 | Year 4 | Year 5 | Total     |\n|-------------------------------|--------|--------|--------|--------|--------|-----------|\n| Right-of-Use Asset (ROU)      | $1,000,000 |   \u2013    |   \u2013    |   \u2013    |   \u2013    | $1,000,000 |\n| Deferred Ijarah Cost          | $200,000  |   \u2013    |   \u2013    |   \u2013    |   \u2013    | $200,000   |\n| Ijarah Liability              | $1,200,000 | $1,200,000 | $1,200,000 | $1,200,000 | $1,200,000 | $1,200,000 |\n| Ijarah Income (P&L)           | $240,000  | $240,000  | $240,000  | $240,000  | $240,000  | $1,200,000 |\n| Accrued Rent Receivable / Bank| $240,000  | $240,000  | $240,000  | $240,000  | $240,000  | $1,200,000 |\n\n---\n\nThis accounting treatment follows the AAOIFI guidelines for Ijarah Muntahia Bittamleek, ensuring compliance with Islamic finance principles while accurately reflecting the financial position and performance of ABC Company as the lessee.",
+    "contract_type": "Ijarah",
+    "status": "completed"
+  }
+}

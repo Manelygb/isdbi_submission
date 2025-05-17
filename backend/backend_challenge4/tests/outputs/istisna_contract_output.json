@@ -1,0 +1,108 @@
+{
+  "case_id": "5949c9d0-7b2e-405e-89b1-da18487caef2",
+  "request_timestamp": "2025-05-17T14:27:17.148745",
+  "client_details": {
+    "client_name": "Al-Farabi Manufacturing Group",
+    "client_type": "company",
+    "experience": "15 years in industrial manufacturing, with 5 successful facility construction projects",
+    "_test_contract_type": "Istisna'a"
+  },
+  "project_details": {
+    "project_name": "Advanced Automotive Parts Factory",
+    "sector": "Manufacturing / Automotive",
+    "location": "Industrial City, Jeddah, Saudi Arabia",
+    "estimated_cost": 8500000,
+    "expected_revenue": 2300000,
+    "payback_period": 5.2,
+    "risks": "Construction delays; Equipment installation complexity; Regulatory approvals; Supply chain disruptions; Market competition",
+    "objective": "Construct a state-of-the-art manufacturing facility for precision automotive components",
+    "description": "This project involves the construction of a 12,000 square meter manufacturing facility with specialized production lines for high-precision automotive components. The facility will include advanced robotics, quality control systems, and environmentally sustainable design elements."
+  },
+  "enterprise_audit_results": {
+    "score": 1.75,
+    "summary": "The company shows strong financial health with good liquidity and solvency ratios.",
+    "key_ratios": {
+      "2021": {
+        "Current Ratio": 1.8,
+        "Debt Ratio": 0.4
+      },
+      "2022": {
+        "Current Ratio": 2.1,
+        "Debt Ratio": 0.35
+      }
+    },
+    "risk_level": {
+      "Low": 2,
+      "Moderate": 0,
+      "High": 0
+    },
+    "verdict": "APPROVE",
+    "warnings": []
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "APPROVE",
+    "confidence": 0.85,
+    "justification": "The project has a strong business case with reasonable payback period and experienced management.",
+    "identified_risks": [
+      "Construction timeline risks",
+      "Initial cash flow constraints",
+      "Regulatory compliance challenges"
+    ],
+    "shariah_preliminary_fit": "High compatibility with Istisna'a contract structure"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Istisna'a",
+    "justification": "Selected Istisna'a as it suits the project nature (mocked for testing).",
+    "key_parameters_required": [
+      "detailed_asset_specs",
+      "price",
+      "delivery_schedule"
+    ],
+    "relevant_aaoifi_fas": [
+      "FAS 10"
+    ]
+  },
+  "formalized_contract": null,
+  "accounting_entries_report": null,
+  "shariah_compliance_report": null,
+  "country_law_validation_report": null,
+  "final_decision_report": null,
+  "processing_log": [
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T14:27:17.148760",
+      "message": "PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "MockIslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T14:27:17.148788",
+      "status": "completed",
+      "message": "Contract type Istisna'a selected.",
+      "completed_at": "2025-05-17T14:27:17.249203"
+    },
+    {
+      "agent": "ContractDraftingAgent",
+      "timestamp": "2025-05-17T14:27:17.249398",
+      "status": "completed",
+      "message": "Contract draft completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T14:29:23.290077"
+    }
+  ],
+  "current_status": "pending_contract_review",
+  "error_info": null,
+  "_test_contract_type": "Istisna'a",
+  "contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a financing structure will facilitate the construction of an Advanced Automotive Parts Factory in Jeddah Industrial City. The Islamic bank will act as the manufacturer/constructor (Al-Sani') to build the specialized facility according to precise specifications, then deliver it to the client (Al-Mustasni') under deferred payment terms. The structure complies with AAOIFI FAS 10 requirements for manufacturing contracts.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a arrangement\n- **Parties:** \n  - Al-Tawfiq Islamic Bank (Manufacturer/Financier)\n  - Advanced Auto Components Ltd. (Client/End Buyer)\n  - Construction Partners Ltd. (Parallel Istisna'a Contractor)\n- **Subject Matter:** Custom-built manufacturing facility for precision automotive components including:\n  - 15,000 sqm factory building with specialized ventilation\n  - Automated production line equipment\n  - Quality control laboratories\n  - Warehouse and logistics areas\n- **Timeline:** \n  - Construction Phase: 18 months\n  - Payment Period: 48 monthly installments post-delivery\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $8,500,000 (Cost Base) + $1,275,000 (Profit) = $9,775,000 (Istisna'a Price)\n- **Payment Mechanism:** \n  - 20% ($1,955,000) advance payment upon contract signing\n  - 30% ($2,932,500) progress payments during construction (3 equal installments)\n  - 50% ($4,887,500) deferred through 48 monthly installments of $101,822.92\n- **Profit/Return Structure:** \n  - Fixed profit margin of 15% on cost base\n  - Profit amount fully disclosed upfront\n- **Risk Distribution:** \n  - Bank bears construction risk until final delivery\n  - Client bears payment obligation risk post-delivery\n  - Performance guarantees from contractor mitigate execution risk\n\n## KEY CONTRACT PROVISIONS\n1. **Detailed Specifications:** Comprehensive technical annexure defining all construction and equipment specifications (AAOIFI FAS 10 \u00b64/1)\n2. **Milestone Payments:** Construction payments tied to verified completion of:\n   - Foundation and structure (25%)\n   - Building envelope completion (50%)\n   - Equipment installation (75%)\n3. **Quality Assurance:** Third-party engineering firm to conduct inspections at all stages\n4. **Delay Penalties:** Contractor liable for actual damages (not interest) for delays exceeding 60 days\n5. **Force Majeure:** Contract suspension allowed for genuine uncontrollable events\n6. **Title Transfer:** Ownership passes only upon final acceptance and delivery\n7. **Client's Right to Reject:** Facility rejection permitted for material non-compliance with specifications\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Asset Specifications:** All construction details and equipment specifications documented to eliminate Gharar\n2. **Ownership Transfer:** Bank maintains ownership throughout construction phase\n3. **Profit Transparency:** Full disclosure of cost base and profit margin upfront\n4. **Payment Terms:** No interest-based penalties; late payments directed to charity\n5. **Parallel Istisna'a:** Mirror contract terms maintained between bank and contractor\n6. **Shariah Audit:** Independent review of contract documentation and execution\n7. **Prohibited Elements:** No riba-based clauses or non-permissible components in construction\n\n## EXECUTION PROCESS\n1. **Feasibility Phase:**\n   - Client submits detailed factory specifications and business plan\n   - Bank conducts technical and financial due diligence\n   - Shariah Board reviews and approves structure\n\n2. **Contracting Phase:**\n   - Parties execute binding Istisna'a agreement\n   - Bank executes Parallel Istisna'a with pre-qualified contractor\n   - Client provides irrevocable promise to purchase\n\n3. **Construction Phase:**\n   - Bank makes initial payment to contractor\n   - Monthly progress meetings with all stakeholders\n   - Independent engineers verify milestone completions\n   - Bank disburses progress payments against verified work\n\n4. **Delivery Phase:**\n   - Final inspection and acceptance testing\n   - Client takes possession upon satisfactory completion\n   - Title transfers to client\n   - Bank registers security interest until final payment\n\n5. **Repayment Phase:**\n   - Client begins monthly installments\n   - Bank monitors ongoing facility performance\n   - Final payment concludes the contract\n\n## RISK MITIGATION MEASURES\n1. **Construction Risk:** \n   - Performance bonds from contractor\n   - Third-party project management oversight\n   - Liquidated damages for delays\n\n2. **Payment Risk:**\n   - 20% equity contribution from client\n   - Corporate guarantee from parent company\n   - Assignment of future receivables\n\n3. **Market Risk:**\n   - Offtake agreements with major automakers\n   - Sensitivity analysis on revenue projections\n\n4. **Shariah Risk:**\n   - Ongoing Shariah compliance audits\n   - Clear documentation of all transactions\n   - Separate bank accounts for project funds\n\nThis structure provides a comprehensive Shariah-compliant solution that addresses all technical, financial and legal requirements for the project while maintaining strict adherence to Islamic finance principles. The parallel Istisna'a arrangement ensures the bank can fulfill its obligations while properly managing risks throughout the construction and repayment periods.",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "draft_completed"
+  },
+  "test_contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a financing structure will facilitate the construction of an Advanced Automotive Parts Factory in Jeddah Industrial City. The Islamic bank will act as the manufacturer/constructor (Al-Sani') to build the specialized facility according to precise specifications, then deliver it to the client (Al-Mustasni') under deferred payment terms. The structure complies with AAOIFI FAS 10 requirements for manufacturing contracts.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a arrangement\n- **Parties:** \n  - Al-Tawfiq Islamic Bank (Manufacturer/Financier)\n  - Advanced Auto Components Ltd. (Client/End Buyer)\n  - Construction Partners Ltd. (Parallel Istisna'a Contractor)\n- **Subject Matter:** Custom-built manufacturing facility for precision automotive components including:\n  - 15,000 sqm factory building with specialized ventilation\n  - Automated production line equipment\n  - Quality control laboratories\n  - Warehouse and logistics areas\n- **Timeline:** \n  - Construction Phase: 18 months\n  - Payment Period: 48 monthly installments post-delivery\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $8,500,000 (Cost Base) + $1,275,000 (Profit) = $9,775,000 (Istisna'a Price)\n- **Payment Mechanism:** \n  - 20% ($1,955,000) advance payment upon contract signing\n  - 30% ($2,932,500) progress payments during construction (3 equal installments)\n  - 50% ($4,887,500) deferred through 48 monthly installments of $101,822.92\n- **Profit/Return Structure:** \n  - Fixed profit margin of 15% on cost base\n  - Profit amount fully disclosed upfront\n- **Risk Distribution:** \n  - Bank bears construction risk until final delivery\n  - Client bears payment obligation risk post-delivery\n  - Performance guarantees from contractor mitigate execution risk\n\n## KEY CONTRACT PROVISIONS\n1. **Detailed Specifications:** Comprehensive technical annexure defining all construction and equipment specifications (AAOIFI FAS 10 \u00b64/1)\n2. **Milestone Payments:** Construction payments tied to verified completion of:\n   - Foundation and structure (25%)\n   - Building envelope completion (50%)\n   - Equipment installation (75%)\n3. **Quality Assurance:** Third-party engineering firm to conduct inspections at all stages\n4. **Delay Penalties:** Contractor liable for actual damages (not interest) for delays exceeding 60 days\n5. **Force Majeure:** Contract suspension allowed for genuine uncontrollable events\n6. **Title Transfer:** Ownership passes only upon final acceptance and delivery\n7. **Client's Right to Reject:** Facility rejection permitted for material non-compliance with specifications\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Asset Specifications:** All construction details and equipment specifications documented to eliminate Gharar\n2. **Ownership Transfer:** Bank maintains ownership throughout construction phase\n3. **Profit Transparency:** Full disclosure of cost base and profit margin upfront\n4. **Payment Terms:** No interest-based penalties; late payments directed to charity\n5. **Parallel Istisna'a:** Mirror contract terms maintained between bank and contractor\n6. **Shariah Audit:** Independent review of contract documentation and execution\n7. **Prohibited Elements:** No riba-based clauses or non-permissible components in construction\n\n## EXECUTION PROCESS\n1. **Feasibility Phase:**\n   - Client submits detailed factory specifications and business plan\n   - Bank conducts technical and financial due diligence\n   - Shariah Board reviews and approves structure\n\n2. **Contracting Phase:**\n   - Parties execute binding Istisna'a agreement\n   - Bank executes Parallel Istisna'a with pre-qualified contractor\n   - Client provides irrevocable promise to purchase\n\n3. **Construction Phase:**\n   - Bank makes initial payment to contractor\n   - Monthly progress meetings with all stakeholders\n   - Independent engineers verify milestone completions\n   - Bank disburses progress payments against verified work\n\n4. **Delivery Phase:**\n   - Final inspection and acceptance testing\n   - Client takes possession upon satisfactory completion\n   - Title transfers to client\n   - Bank registers security interest until final payment\n\n5. **Repayment Phase:**\n   - Client begins monthly installments\n   - Bank monitors ongoing facility performance\n   - Final payment concludes the contract\n\n## RISK MITIGATION MEASURES\n1. **Construction Risk:** \n   - Performance bonds from contractor\n   - Third-party project management oversight\n   - Liquidated damages for delays\n\n2. **Payment Risk:**\n   - 20% equity contribution from client\n   - Corporate guarantee from parent company\n   - Assignment of future receivables\n\n3. **Market Risk:**\n   - Offtake agreements with major automakers\n   - Sensitivity analysis on revenue projections\n\n4. **Shariah Risk:**\n   - Ongoing Shariah compliance audits\n   - Clear documentation of all transactions\n   - Separate bank accounts for project funds\n\nThis structure provides a comprehensive Shariah-compliant solution that addresses all technical, financial and legal requirements for the project while maintaining strict adherence to Islamic finance principles. The parallel Istisna'a arrangement ensures the bank can fulfill its obligations while properly managing risks throughout the construction and repayment periods.",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "draft_completed"
+  }
+}

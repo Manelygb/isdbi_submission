@@ -1,0 +1,108 @@
+{
+  "case_id": "c20c39e9-1c45-4b56-ba3a-2fd52e9ceec4",
+  "request_timestamp": "2025-05-17T14:31:23.812277",
+  "client_details": {
+    "client_name": "Bayt Al-Imar Development Corporation",
+    "client_type": "company",
+    "experience": "12 years in residential and commercial real estate development with 8 completed projects",
+    "_test_contract_type": "Musharakah"
+  },
+  "project_details": {
+    "project_name": "Al-Waha Mixed-Use Development",
+    "sector": "Real Estate",
+    "location": "Muscat, Oman",
+    "estimated_cost": 15000000,
+    "expected_revenue": 4200000,
+    "payback_period": 7.5,
+    "risks": "Market fluctuations; Construction delays; Regulatory changes; Environmental compliance; Material cost increases",
+    "objective": "Develop a 50,000 square meter mixed-use property with residential, retail, and office spaces",
+    "description": "This project will create a modern, eco-friendly mixed-use development featuring 120 residential units, 35 retail spaces, and 15,000 square meters of premium office space. The development includes green spaces, smart building technology, and sustainable energy solutions."
+  },
+  "enterprise_audit_results": {
+    "score": 1.75,
+    "summary": "The company shows strong financial health with good liquidity and solvency ratios.",
+    "key_ratios": {
+      "2021": {
+        "Current Ratio": 1.8,
+        "Debt Ratio": 0.4
+      },
+      "2022": {
+        "Current Ratio": 2.1,
+        "Debt Ratio": 0.35
+      }
+    },
+    "risk_level": {
+      "Low": 2,
+      "Moderate": 0,
+      "High": 0
+    },
+    "verdict": "APPROVE",
+    "warnings": []
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "APPROVE",
+    "confidence": 0.85,
+    "justification": "The project has a strong business case with reasonable payback period and experienced management.",
+    "identified_risks": [
+      "Construction timeline risks",
+      "Initial cash flow constraints",
+      "Regulatory compliance challenges"
+    ],
+    "shariah_preliminary_fit": "High compatibility with Musharakah contract structure"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Musharakah",
+    "justification": "Selected Musharakah as it suits the project nature (mocked for testing).",
+    "key_parameters_required": [
+      "detailed_asset_specs",
+      "price",
+      "delivery_schedule"
+    ],
+    "relevant_aaoifi_fas": [
+      "FAS 7"
+    ]
+  },
+  "formalized_contract": null,
+  "accounting_entries_report": null,
+  "shariah_compliance_report": null,
+  "country_law_validation_report": null,
+  "final_decision_report": null,
+  "processing_log": [
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T14:31:23.812288",
+      "message": "PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "MockIslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T14:31:23.812319",
+      "status": "completed",
+      "message": "Contract type Musharakah selected.",
+      "completed_at": "2025-05-17T14:31:23.912431"
+    },
+    {
+      "agent": "ContractDraftingAgent",
+      "timestamp": "2025-05-17T14:31:23.912511",
+      "status": "completed",
+      "message": "Contract draft completed for Musharakah contract.",
+      "completed_at": "2025-05-17T14:33:31.846383"
+    }
+  ],
+  "current_status": "pending_contract_review",
+  "error_info": null,
+  "_test_contract_type": "Musharakah",
+  "contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: MUSHARAKAH\n\n## CONTRACT OVERVIEW\nThis Musharakah (joint venture partnership) structure will finance the development of Al-Waha Mixed-Use Development in Muscat, Oman. The Islamic bank and the client will jointly contribute capital to the project, sharing both profits according to pre-agreed ratios and losses in proportion to their capital contributions. This structure aligns with the long-term nature of real estate development while maintaining Shariah compliance.\n\n## CONTRACT STRUCTURE\n- **Contract Type**: Permanent Musharakah with Diminishing Partnership option\n- **Parties**: \n  - Al-Noor Islamic Bank (Investor/Financier)\n  - Client Development Company (Developer/Manager)\n  - Independent Shariah Advisor (Oversight)\n- **Subject Matter**: Development of 50,000 sqm mixed-use property (residential, retail, office)\n- **Timeline**: \n  - Construction Phase: 2.5 years \n  - Operation Phase: 5 years\n  - Total Duration: 7.5 years\n\n## FINANCIAL STRUCTURE\n- **Total Project Cost**: $15,000,000\n- **Capital Contribution**:\n  - Bank: $10,500,000 (70%)\n  - Client: $4,500,000 (30%) - comprising $3,000,000 cash + $1,500,000 land contribution (valued by independent appraiser)\n- **Profit Sharing**: \n  - Construction Phase: 50:50 (compensating client's development expertise)\n  - Operation Phase: 60:40 (bank:client) until full repayment\n- **Loss Sharing**: Strictly proportional to capital contribution (70:30)\n- **Exit Mechanism**: Gradual buyout by client starting Year 3 at fair market valuation\n\n## KEY CONTRACT PROVISIONS\n1. **Capital Verification**: Independent valuation of client's land contribution documented before contract signing (AAOIFI FAS 4)\n2. **Profit Distribution**: Quarterly profit distributions after debt service coverage ratio of 1.25x is maintained\n3. **Management Structure**: Client serves as managing partner with performance-based fee structure\n4. **Dispute Resolution**: Three-member Shariah committee to resolve operational disagreements\n5. **Asset Ownership**: Title held in special purpose vehicle (SPV) with proportionate ownership shares\n6. **Exit Options**: Client has right of first refusal to purchase bank's shares annually at fair market value\n7. **Default Provisions**: Penalties only applicable in cases of gross negligence or misconduct (AAOIFI SS 13)\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Commingling of Funds**: Separate project account with joint signatures required for disbursements\n2. **Profit-Loss Alignment**: No guaranteed returns; all projections clearly labeled as estimates\n3. **Asset Permissibility**: Full due diligence confirming halal usage of all spaces\n4. **Valuation Integrity**: Quarterly independent valuations for any asset-based transactions\n5. **Transparency**: Full disclosure of all fees, costs, and profit calculations\n6. **Gharar Mitigation**: Detailed specifications of construction quality and timelines\n7. **Shariah Audit**: Annual review by independent Shariah board\n\n## EXECUTION PROCESS\n\n### Phase 1: Formation (Months 1-3)\n1. Client submits detailed project specifications and financial projections\n2. Bank conducts due diligence including Shariah compliance review\n3. Independent valuation of client's land contribution\n4. Execution of Musharakah agreement and establishment of SPV\n5. Initial capital contributions deposited into escrow account\n\n### Phase 2: Construction (Months 4-36)\n1. Monthly drawdowns against certified construction milestones\n2. Quarterly Shariah compliance audits of expenditures\n3. Progress reporting to both partners with photographic evidence\n4. Profit sharing begins after first revenue-generating units complete\n\n### Phase 3: Operation (Years 3-7.5)\n1. Monthly operational accounts reviewed by both parties\n2. Quarterly profit distributions after debt service coverage\n3. Annual valuation for potential buyout transactions\n4. Client exercises buyout options as cash flow permits\n5. Final settlement and partnership dissolution upon full buyout or project completion\n\n### Supporting Contracts:\n1. **Wakalah Agreement**: Client serves as property manager with performance incentives\n2. **Purchase Undertaking**: Client's binding promise to buy bank's shares over time\n3. **Lease Agreement**: For any spaces rented during construction phase\n4. **Technical Services Agreement**: With independent construction monitor\n\n## RISK MITIGATION MEASURES\n1. **Market Risk**: Pre-leasing requirements for 40% of commercial space before construction\n2. **Construction Risk**: Performance bonds from contractors and delay liquidated damages\n3. **Regulatory Risk**: Dedicated compliance officer appointed by SPV\n4. **Environmental Risk**: Third-party environmental impact assessment required\n5. **Material Cost Risk**: Fixed-price contracts with reputable suppliers\n6. **Liquidity Risk**: 12-month cash reserve requirement in project accounts\n\nThis Musharakah structure provides a Shariah-compliant solution that aligns the interests of both parties while maintaining proper risk sharing in accordance with AAOIFI FAS 7 and related standards. The diminishing partnership option allows the client to gradually assume full ownership while the bank achieves its targeted returns through legitimate trade-based profits.",
+    "contract_type": "Musharakah",
+    "version": "1.0",
+    "status": "draft_completed"
+  },
+  "test_contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: MUSHARAKAH\n\n## CONTRACT OVERVIEW\nThis Musharakah (joint venture partnership) structure will finance the development of Al-Waha Mixed-Use Development in Muscat, Oman. The Islamic bank and the client will jointly contribute capital to the project, sharing both profits according to pre-agreed ratios and losses in proportion to their capital contributions. This structure aligns with the long-term nature of real estate development while maintaining Shariah compliance.\n\n## CONTRACT STRUCTURE\n- **Contract Type**: Permanent Musharakah with Diminishing Partnership option\n- **Parties**: \n  - Al-Noor Islamic Bank (Investor/Financier)\n  - Client Development Company (Developer/Manager)\n  - Independent Shariah Advisor (Oversight)\n- **Subject Matter**: Development of 50,000 sqm mixed-use property (residential, retail, office)\n- **Timeline**: \n  - Construction Phase: 2.5 years \n  - Operation Phase: 5 years\n  - Total Duration: 7.5 years\n\n## FINANCIAL STRUCTURE\n- **Total Project Cost**: $15,000,000\n- **Capital Contribution**:\n  - Bank: $10,500,000 (70%)\n  - Client: $4,500,000 (30%) - comprising $3,000,000 cash + $1,500,000 land contribution (valued by independent appraiser)\n- **Profit Sharing**: \n  - Construction Phase: 50:50 (compensating client's development expertise)\n  - Operation Phase: 60:40 (bank:client) until full repayment\n- **Loss Sharing**: Strictly proportional to capital contribution (70:30)\n- **Exit Mechanism**: Gradual buyout by client starting Year 3 at fair market valuation\n\n## KEY CONTRACT PROVISIONS\n1. **Capital Verification**: Independent valuation of client's land contribution documented before contract signing (AAOIFI FAS 4)\n2. **Profit Distribution**: Quarterly profit distributions after debt service coverage ratio of 1.25x is maintained\n3. **Management Structure**: Client serves as managing partner with performance-based fee structure\n4. **Dispute Resolution**: Three-member Shariah committee to resolve operational disagreements\n5. **Asset Ownership**: Title held in special purpose vehicle (SPV) with proportionate ownership shares\n6. **Exit Options**: Client has right of first refusal to purchase bank's shares annually at fair market value\n7. **Default Provisions**: Penalties only applicable in cases of gross negligence or misconduct (AAOIFI SS 13)\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Commingling of Funds**: Separate project account with joint signatures required for disbursements\n2. **Profit-Loss Alignment**: No guaranteed returns; all projections clearly labeled as estimates\n3. **Asset Permissibility**: Full due diligence confirming halal usage of all spaces\n4. **Valuation Integrity**: Quarterly independent valuations for any asset-based transactions\n5. **Transparency**: Full disclosure of all fees, costs, and profit calculations\n6. **Gharar Mitigation**: Detailed specifications of construction quality and timelines\n7. **Shariah Audit**: Annual review by independent Shariah board\n\n## EXECUTION PROCESS\n\n### Phase 1: Formation (Months 1-3)\n1. Client submits detailed project specifications and financial projections\n2. Bank conducts due diligence including Shariah compliance review\n3. Independent valuation of client's land contribution\n4. Execution of Musharakah agreement and establishment of SPV\n5. Initial capital contributions deposited into escrow account\n\n### Phase 2: Construction (Months 4-36)\n1. Monthly drawdowns against certified construction milestones\n2. Quarterly Shariah compliance audits of expenditures\n3. Progress reporting to both partners with photographic evidence\n4. Profit sharing begins after first revenue-generating units complete\n\n### Phase 3: Operation (Years 3-7.5)\n1. Monthly operational accounts reviewed by both parties\n2. Quarterly profit distributions after debt service coverage\n3. Annual valuation for potential buyout transactions\n4. Client exercises buyout options as cash flow permits\n5. Final settlement and partnership dissolution upon full buyout or project completion\n\n### Supporting Contracts:\n1. **Wakalah Agreement**: Client serves as property manager with performance incentives\n2. **Purchase Undertaking**: Client's binding promise to buy bank's shares over time\n3. **Lease Agreement**: For any spaces rented during construction phase\n4. **Technical Services Agreement**: With independent construction monitor\n\n## RISK MITIGATION MEASURES\n1. **Market Risk**: Pre-leasing requirements for 40% of commercial space before construction\n2. **Construction Risk**: Performance bonds from contractors and delay liquidated damages\n3. **Regulatory Risk**: Dedicated compliance officer appointed by SPV\n4. **Environmental Risk**: Third-party environmental impact assessment required\n5. **Material Cost Risk**: Fixed-price contracts with reputable suppliers\n6. **Liquidity Risk**: 12-month cash reserve requirement in project accounts\n\nThis Musharakah structure provides a Shariah-compliant solution that aligns the interests of both parties while maintaining proper risk sharing in accordance with AAOIFI FAS 7 and related standards. The diminishing partnership option allows the client to gradually assume full ownership while the bank achieves its targeted returns through legitimate trade-based profits.",
+    "contract_type": "Musharakah",
+    "version": "1.0",
+    "status": "draft_completed"
+  }
+}

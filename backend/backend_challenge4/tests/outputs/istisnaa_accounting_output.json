@@ -1,0 +1,62 @@
+{
+  "case_id": "TEST_ISTISNA'A_001",
+  "request_timestamp": "2025-05-17T22:02:36.855767",
+  "client_details": {
+    "client_name": "ABC Test Company",
+    "client_type": "company",
+    "experience": "10 years in industry"
+  },
+  "project_details": {
+    "project_name": "Test Istisna'a Project",
+    "objective": "Test the accounting treatment for Istisna'a contract",
+    "estimated_cost": 1000000,
+    "expected_revenue": 1200000,
+    "sector": "Manufacturing"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Istisna'a",
+    "justification": "Selected Istisna'a as it suits the project nature.",
+    "key_parameters_required": [
+      "price",
+      "delivery_schedule",
+      "specifications"
+    ],
+    "relevant_aaoifi_fas": [
+      "Relevant FAS Standard"
+    ]
+  },
+  "processing_log": [
+    {
+      "agent": "TestInitializer",
+      "timestamp": "2025-05-17T22:02:36.855784",
+      "message": "Test PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "MockContractDraftingAgent",
+      "timestamp": "2025-05-17T22:02:36.855805",
+      "status": "completed",
+      "message": "Contract draft completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T22:02:36.956230"
+    },
+    {
+      "agent": "AccountingAgent",
+      "timestamp": "2025-05-17T22:02:37.170377",
+      "status": "completed",
+      "message": "Accounting entries generation completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T22:03:01.324896"
+    }
+  ],
+  "current_status": "pending_shariah_validation",
+  "contract_draft": {
+    "content": "\n# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a (manufacturing contract) structure will finance the construction of a custom-built factory for ABC Manufacturing Co. The bank will commission the construction and then deliver the completed facility to the client against deferred payments.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a\n- **Parties:** XYZ Islamic Bank (Financier), ABC Manufacturing Co. (End Buyer), BuildWell Ltd. (Contractor)\n- **Subject Matter:** Custom-built manufacturing facility with specified technical requirements\n- **Timeline:** 12-month construction period, followed by 4-year payment period\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $2,000,000\n- **Payment Mechanism:** 4 quarterly installments of $500,000 starting 3 months after delivery\n- **Profit/Return Structure:** Bank earns $300,000 (difference between Istisna'a price to client and Parallel Istisna'a cost)\n- **Risk Distribution:** Bank bears construction risk until delivery; client bears payment obligation risk\n",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "draft_completed"
+  },
+  "accounting_entries_report": {
+    "content": "## A. Initial Contract Details\n\n1. **Bank's Roles:**\n   - **Seller (Al-Sani')**: XYZ Islamic Bank acts as the seller under the Istisna'a contract, commissioning the construction of the factory for ABC Manufacturing Co.\n   - **Buyer (Al-Mustasni')**: XYZ Islamic Bank also acts as the buyer under the Parallel Istisna'a contract with BuildWell Ltd., which is the contractor for the construction.\n\n2. **Contract Details:**\n   - **Total Contract Value with Client**: $2,000,000\n   - **Construction Cost under Parallel Istisna'a**: $1,700,000 (Total contract value - Profit to Bank)\n   - **Timeline of Construction and Delivery**: 12 months for construction, followed by a 4-year payment period.\n   - **Payment Schedule from Client**: Four quarterly installments of $500,000 starting 3 months after delivery.\n\n---\n\n## B. Step-by-Step Revenue Recognition (Quarterly)\n\n### Assumptions:\n- Total Estimated Cost = $1,700,000\n- Total Profit = $300,000\n- Total Revenue = $2,000,000\n\n### Quarterly Breakdown:\n\n| Quarter | Cumulative Cost | % Completion | Cumulative Revenue | Cumulative Profit | Incremental Revenue | Incremental Cost | Incremental Profit |\n|---------|------------------|--------------|--------------------|-------------------|---------------------|------------------|---------------------|\n| Q1      | $425,000         | 25%          | $500,000           | $75,000           | $500,000            | $425,000         | $75,000             |\n| Q2      | $850,000         | 50%          | $1,000,000         | $150,000          | $500,000            | $425,000         | $75,000             |\n| Q3      | $1,275,000       | 75%          | $1,500,000         | $225,000          | $500,000            | $425,000         | $75,000             |\n| Q4      | $1,700,000       | 100%         | $2,000,000         | $300,000          | $500,000            | $425,000         | $75,000             |\n\n---\n\n## C. Journal Entries (By Quarter)\n\n### Q1\n1. **Cost Incurred**\n   - Dr. WIP $425,000\n   - Cr. Payables $425,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $500,000\n   - Cr. Istisna'a Revenue $500,000\n   - Cr. Profit $75,000\n\n### Q2\n1. **Cost Incurred**\n   - Dr. WIP $425,000\n   - Cr. Payables $425,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $500,000\n   - Cr. Istisna'a Revenue $500,000\n   - Cr. Profit $75,000\n\n### Q3\n1. **Cost Incurred**\n   - Dr. WIP $425,000\n   - Cr. Payables $425,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $500,000\n   - Cr. Istisna'a Revenue $500,000\n   - Cr. Profit $75,000\n\n### Q4\n1. **Cost Incurred**\n   - Dr. WIP $425,000\n   - Cr. Payables $425,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $500,000\n   - Cr. Istisna'a Revenue $500,000\n   - Cr. Profit $75,000\n\n---\n\n## D. Payment Collection (Post-Delivery)\n\nAssuming delivery is completed at Q4, the following payments will be recorded:\n\n### Payment Schedule:\n1. **P1 (3 months after delivery)**\n   - Dr. Cash / Bank $500,000\n   - Cr. Istisna'a Receivable $500,000\n\n2. **P2 (6 months after delivery)**\n   - Dr. Cash / Bank $500,000\n   - Cr. Istisna'a Receivable $500,000\n\n3. **P3 (9 months after delivery)**\n   - Dr. Cash / Bank $500,000\n   - Cr. Istisna'a Receivable $500,000\n\n4. **P4 (12 months after delivery)**\n   - Dr. Cash / Bank $500,000\n   - Cr. Istisna'a Receivable $500,000\n\n---\n\n## E. Ledger Table (Q1 to Q4 + P1 to P4)\n\n| Period  | WIP (Dr) | Receivable (Dr) | Revenue (Cr) | Cost of Sales (Dr) | Profit (Cr) | Payables (Cr) | Cash Received (Dr) |\n|---------|----------|------------------|---------------|--------------------|--------------|----------------|---------------------|\n| Q1      | 425,000  | 500,000          | 500,000       | 425,000            | 75,000       | 425,000        |                     |\n| Q2      | 425,000  | 500,000          | 500,000       | 425,000            | 75,000       | 425,000        |                     |\n| Q3      | 425,000  | 500,000          | 500,000       | 425,000            | 75,000       | 425,000        |                     |\n| Q4      | 425,000  | 500,000          | 500,000       | 425,000            | 75,000       | 425,000        |                     |\n| P1      | \u2013        | \u2013                | \u2013             | \u2013                  | \u2013            | \u2013              | 500,000             |\n| P2      | \u2013        | \u2013                | \u2013             | \u2013                  | \u2013            | \u2013              | 500,000             |\n| P3      | \u2013        | \u2013                | \u2013             | \u2013                  | \u2013            | \u2013              | 500,000             |\n| P4      | \u2013        | \u2013                | \u2013             | \u2013                  | \u2013            | \u2013              | 500,000             |\n| **Total**| 1,700,000| 2,000,000       | 2,000,000     | 1,700,000          | 300,000      | 1,700,000      | 2,000,000           |\n\n---\n\nThis structured approach ensures compliance with AAOIFI Financial Accounting Standard No. 10 and provides a clear view of the financial transactions throughout the Istisna'a contract lifecycle.",
+    "contract_type": "Istisna'a",
+    "status": "completed"
+  }
+}

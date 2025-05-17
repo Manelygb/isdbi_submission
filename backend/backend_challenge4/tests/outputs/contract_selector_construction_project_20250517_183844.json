@@ -1,0 +1,103 @@
+{
+  "case_id": "148a3938-634a-4afe-82c9-67adc46cb318",
+  "request_timestamp": "2025-05-17T18:38:06.295472",
+  "client_details": {
+    "client_name": "ABC Building Corp",
+    "client_type": "company",
+    "financial_data_csv": "Year,CurrentAssets,CurrentLiabilities,StocksAndRelief,IssuedCapital,TotalLiabilities,TotalAssets,NetIncome,Revenue,NonCurrentAssets,PermanentCapital,FixedAssets\n2021,35000,18000,5000,20000,30000,60000,5500,52000,20000,48000,19000\n2022,40000,19000,5500,22000,32000,65000,6000,56000,22000,52000,21000\n2023,45000,20000,6000,24000,34000,70000,6500,60000,24000,56000,23000"
+  },
+  "project_details": {
+    "project_name": "Commercial Building Construction",
+    "description": "Construction of a 10-story office building using sustainable materials",
+    "estimated_cost": 5000000,
+    "duration_months": 24
+  },
+  "enterprise_audit_results": {
+    "score": 0.75,
+    "summary": "The company shows adequate financial health to support the project.",
+    "key_ratios": {
+      "2023": {
+        "Current Ratio": 1.8,
+        "Debt Ratio": 0.45
+      }
+    },
+    "risk_level": {
+      "Low": 1,
+      "Moderate": 2,
+      "High": 0
+    },
+    "verdict": "APPROVE"
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "APPROVE",
+    "confidence": 0.8,
+    "justification": "The project has favorable economics and fits the company's business model.",
+    "identified_risks": [
+      "Market volatility",
+      "Regulatory compliance"
+    ],
+    "shariah_preliminary_fit": "Initial assessment indicates good Shariah compatibility."
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Istisna'a",
+    "justification": "Selected Istisna'a as it's suitable for construction and manufacturing projects.",
+    "key_parameters_required": [
+      "detailed_asset_specs",
+      "price",
+      "delivery_schedule",
+      "quality_standards"
+    ],
+    "relevant_aaoifi_fas": [
+      "FAS 10"
+    ],
+    "contract_probabilities": {
+      "Istisna'a": 0.2,
+      "Murabaha": 0.2,
+      "Ijara": 0.2,
+      "Musharaka": 0.2,
+      "Salam": 0.2
+    }
+  },
+  "formalized_contract": null,
+  "accounting_entries_report": null,
+  "shariah_compliance_report": null,
+  "country_law_validation_report": null,
+  "final_decision_report": null,
+  "processing_log": [
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T18:38:06.295493",
+      "message": "PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T18:38:06.295517",
+      "message": "Starting from contract selection stage (test mode).",
+      "status": "system"
+    },
+    {
+      "agent": "IslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T18:38:06.295539",
+      "status": "completed",
+      "message": "Contract type Istisna'a selected.",
+      "completed_at": "2025-05-17T18:38:07.620792"
+    },
+    {
+      "agent": "ContractDraftingAgent",
+      "timestamp": "2025-05-17T18:38:07.620891",
+      "status": "completed",
+      "message": "Contract draft completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T18:38:44.507541"
+    }
+  ],
+  "current_status": "pending_contract_review",
+  "error_info": null,
+  "contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a financing structure will facilitate the construction of a commercial building project. The Islamic financial institution will act as the manufacturer/constructor (Sani') through a parallel Istisna'a arrangement with a qualified contractor, then deliver the completed asset to the client (Mustasni') under agreed deferred payment terms. This structure complies with AAOIFI FAS 10 requirements for manufacturing contracts.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a\n- **Parties:** \n  - Islamic Bank (Primary Istisna'a Seller/Parallel Istisna'a Buyer)\n  - Client Company (Primary Istisna'a Buyer)\n  - Construction Contractor (Parallel Istisna'a Seller)\n- **Subject Matter:** Custom-built commercial building meeting precise technical specifications\n- **Timeline:** Construction period to be determined, with payment schedule spanning 5 years post-completion\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $5,000,000 (construction cost)\n- **Payment Mechanism:** \n  - 20% down payment ($1,000,000) from client at contract signing\n  - 16 quarterly installments of $250,000 over 4 years post-delivery\n- **Profit/Return Structure:** \n  - Bank's profit margin of $625,000 (12.5% of cost) built into total price\n  - Final Murabaha price to client: $5,625,000\n- **Risk Distribution:** \n  - Bank bears construction risk until delivery\n  - Client bears payment obligation risk post-delivery\n  - Contractor bears performance risk during construction\n\n## KEY CONTRACT PROVISIONS\n1. **Detailed Specifications:** Comprehensive building plans, materials specifications, and quality standards documented in contract appendices (AAOIFI FAS 10 requirement)\n2. **Progress Payments:** Contractor receives staged payments tied to verified construction milestones (25%, 50%, 75%, 100%)\n3. **Title Transfer:** Ownership transfers to client only upon final inspection and acceptance\n4. **Penalty Structure:** Late payment donations to charity rather than bank benefit (no riba)\n5. **Quality Assurance:** Third-party engineering firm appointed to verify construction quality\n6. **Completion Guarantees:** Performance bonds required from contractor\n7. **Termination Clauses:** Clear exit provisions for non-performance scenarios\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Asset Specifications:** Precise description of the commercial building's characteristics before contract signing\n2. **Ownership Transfer:** Bank maintains ownership risk during construction phase\n3. **Price Certainty:** All costs and profit margins disclosed upfront with no variable interest\n4. **Separate Contracts:** Distinct Istisna'a and Parallel Istisna'a agreements to prevent commingling\n5. **No Interest Penalties:** Late payment compensation mechanisms avoid riba\n6. **Independent Verification:** Shariah board review of all contract documentation\n7. **Real Asset Basis:** Financing tied directly to physical asset construction\n\n## EXECUTION PROCESS\n1. **Client Application:** Client submits detailed building specifications and financing request\n2. **Bank Due Diligence:** Technical and financial feasibility assessment conducted\n3. **Contractor Selection:** Bank identifies and vets qualified construction contractor\n4. **Primary Istisna'a:** Bank and client execute Istisna'a agreement with deferred payment terms\n5. **Parallel Istisna'a:** Bank contracts with construction firm for actual building execution\n6. **Construction Phase:** \n   - Bank disburses progress payments to contractor upon milestone verification\n   - Independent engineer monitors construction quality\n7. **Completion & Delivery:** \n   - Final inspection and client acceptance\n   - Title transfers from bank to client\n8. **Payment Phase:** Client begins quarterly installments per agreed schedule\n9. **Shariah Audit:** Post-completion review to verify compliance throughout process\n\n## RISK MITIGATION MEASURES\n1. **Market Volatility:** Fixed-price contract protects against material cost fluctuations\n2. **Regulatory Compliance:** Legal team verifies all zoning and construction regulations\n3. **Performance Risk:** Contractor bonding and milestone payments ensure accountability\n4. **Payment Default:** First-ranking charge on the property until full payment\n5. **Construction Delays:** Liquidated damages clause in parallel Istisna'a contract\n6. **Quality Issues:** Retention amount held until final inspection clearance\n\nThis Istisna'a structure provides Shariah-compliant financing while properly allocating risks among all parties. The bank acts as true intermediary rather than money lender, maintaining compliance with Islamic finance principles throughout the construction and payment periods.",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "draft_completed"
+  }
+}

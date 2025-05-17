@@ -1,0 +1,62 @@
+{
+  "case_id": "TEST_MURABAHA_001",
+  "request_timestamp": "2025-05-17T22:03:01.325483",
+  "client_details": {
+    "client_name": "ABC Test Company",
+    "client_type": "company",
+    "experience": "10 years in industry"
+  },
+  "project_details": {
+    "project_name": "Test Murabaha Project",
+    "objective": "Test the accounting treatment for Murabaha contract",
+    "estimated_cost": 1000000,
+    "expected_revenue": 1200000,
+    "sector": "Manufacturing"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Murabaha",
+    "justification": "Selected Murabaha as it suits the project nature.",
+    "key_parameters_required": [
+      "price",
+      "delivery_schedule",
+      "specifications"
+    ],
+    "relevant_aaoifi_fas": [
+      "Relevant FAS Standard"
+    ]
+  },
+  "processing_log": [
+    {
+      "agent": "TestInitializer",
+      "timestamp": "2025-05-17T22:03:01.325499",
+      "message": "Test PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "MockContractDraftingAgent",
+      "timestamp": "2025-05-17T22:03:01.325519",
+      "status": "completed",
+      "message": "Contract draft completed for Murabaha contract.",
+      "completed_at": "2025-05-17T22:03:01.425768"
+    },
+    {
+      "agent": "AccountingAgent",
+      "timestamp": "2025-05-17T22:03:01.473804",
+      "status": "completed",
+      "message": "Accounting entries generation completed for Murabaha contract.",
+      "completed_at": "2025-05-17T22:03:13.860647"
+    }
+  ],
+  "current_status": "pending_shariah_validation",
+  "contract_draft": {
+    "content": "\n# ISLAMIC FINANCING SCENARIO: MURABAHA\n\n## CONTRACT OVERVIEW\nThis Murabaha (cost-plus financing) structure will finance the purchase of manufacturing equipment for XYZ Corporation. The bank will purchase the equipment outright and then sell it to the client at a marked-up price with deferred payment terms.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Commodity Murabaha\n- **Parties:** ABC Islamic Bank (Seller), XYZ Corporation (Buyer), Equipment Supplier (Original Seller)\n- **Subject Matter:** Industrial manufacturing equipment as specifically identified in appendix\n- **Timeline:** Immediate purchase and transfer of ownership, with 36-month repayment period\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $500,000 (Cost Price) + $75,000 (Profit) = $575,000 (Murabaha Price)\n- **Payment Mechanism:** 36 equal monthly installments of $15,972.22\n- **Profit/Return Structure:** Fixed profit amount of $75,000 (15% of Cost Price) disclosed upfront\n- **Risk Distribution:** Bank bears ownership risk until sale to client; client bears credit risk after purchase\n",
+    "contract_type": "Murabaha",
+    "version": "1.0",
+    "status": "draft_completed"
+  },
+  "accounting_entries_report": {
+    "content": "```markdown\n### A. Financial Breakdown\n\n1. **Total Acquisition Cost**: \n   - Purchase Price: $500,000\n   - Related Charges: $0 (Assuming no additional charges provided)\n   - **Total Acquisition Cost** = $500,000\n\n2. **Murabaha Sale Price**: \n   - **Sale Price** = $575,000\n\n3. **Profit Margin**: \n   - **Profit Margin** = $575,000 - $500,000 = $75,000\n\n4. Calculations:\n   - **Monthly Installment** = $575,000 \u00f7 36 = $15,972.22\n   - **Monthly Profit Portion** = $75,000 \u00f7 36 = $2,083.33\n\n---\n\n### B. Journal Entries\n\n**1. Purchase of Asset:**\n- Dr. Murabaha Inventory (SFP) $500,000  \n- Cr. Cash / Supplier Payable (SFP) $500,000  \n\n**2. Sale under Murabaha (Deferred Payment):**\n- Dr. Murabaha Receivable (SFP) $575,000  \n- Cr. Murabaha Revenue (IS) $575,000  \n- Dr. Cost of Goods Sold (IS) $500,000  \n- Cr. Murabaha Inventory (SFP) $500,000  \n- Cr. Deferred Profit (SFP) $75,000  \n\n**3. Monthly Profit Recognition:**\n- Dr. Deferred Profit (SFP) $2,083.33  \n- Cr. Murabaha Income (IS) $2,083.33  \n\n**4. Monthly Installment Receipt:**\n- Dr. Cash / Bank (SFP) $15,972.22  \n- Cr. Murabaha Receivable (SFP) $15,972.22  \n\n---\n\n### C. Summary General Ledger Table\n\n| Account                                | Month 1       | Months 2\u2013n       | Total          |\n|----------------------------------------|---------------|------------------|----------------|\n| **Murabaha Inventory / Asset (SFP)**   | Dr $500,000   | \u2013                | Cost only      |\n| **Murabaha Receivable (SFP)**          | Dr $575,000   | Cr $15,972.22    | Net 0          |\n| **Deferred Profit (SFP)**               | Cr $75,000    | Dr $2,083.33     | Net 0          |\n| **Murabaha Income (IS)**                | Cr $2,083.33  | Cr $2,083.33     | Total Profit    |\n| **Cash / Bank (SFP)**                   | Dr $15,972.22 | Dr $15,972.22    | Total Paid      |\n```",
+    "contract_type": "Murabaha",
+    "status": "completed"
+  }
+}

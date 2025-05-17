@@ -1,0 +1,95 @@
+
+.bg_purple {
+  position: relative;
+  background: linear-gradient(to bottom, #9284FF, #4A25E1); /* Gradient background */
+  border-right: 1px solid #eee;
+  box-shadow: 0px 21px 27px -10px #7B5AFF80;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 15px;
+}
+.bg_light {
+  position: relative;
+  width: 350px;             
+  min-height: 200px;
+  border-radius: 20px;
+  box-shadow: 0px 21px 27px -10px #7B5AFF80;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+  overflow: hidden;          /* Hide overflow from image */
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.background-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 200px;
+  height: auto;
+  opacity: 0.8;
+  pointer-events: none;
+  z-index: 0;
+}
+
+
+.text-content {
+  padding-left: 24px;
+}
+
+.top-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.bottom-text {
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.action-btn {
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  min-width: max-content;
+  z-index: 10;
+  margin-right: 10px;
+
+}
+
+.action-btn:hover {
+  background-color: #f0f0f0;
+}
+
+
+.purple-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.light-card-container {
+  display: flex;
+  flex-wrap: wrap;            /* Allow items to wrap to next line */
+  justify-content: start;    /* Center items horizontally */
+  gap: 1rem;                  /* Space between cards */
+  padding: 2rem 0;
+}
+
+.z-10{
+    z-index: 10 !important;
+}

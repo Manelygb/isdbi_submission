@@ -1,0 +1,30 @@
+{
+  "primary_contract_type": "Istisna'a",
+  "contract_probabilities": {
+    "Istisna'a": 70.0,
+    "Musharakah": 15.0,
+    "Murabaha": 10.0,
+    "Ijarah": 5.0,
+    "Salam": 0.0
+  },
+  "justifications": {
+    "Istisna'a": "Most suitable for construction and manufacturing projects where assets are built to specification.",
+    "Musharakah": "Could be used but less optimal for fixed-price construction projects.",
+    "Murabaha": "Not ideal as the asset doesn't exist yet for purchase and resale.",
+    "Ijarah": "Not applicable until the asset exists and can be leased.",
+    "Salam": "Not suitable for customized manufacturing projects."
+  },
+  "relevant_aaoifi_standards": {
+    "Istisna'a": [
+      "FAS 10",
+      "SS 11"
+    ]
+  },
+  "key_parameters_required": [
+    "detailed_asset_specs",
+    "price",
+    "delivery_schedule",
+    "quality_standards",
+    "payment_terms"
+  ]
+}

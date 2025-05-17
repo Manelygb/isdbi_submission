@@ -1,0 +1,223 @@
+{
+  "case_id": "2f4c8043-bd66-4a0a-9422-fd4c526a9879",
+  "request_timestamp": "2025-05-17T23:26:53.125642",
+  "client_details": {
+    "client_name": "Algerian Development Corporation",
+    "client_type": "company",
+    "financial_data_csv": "year,non_current_assets,intangible_assets,tangible_assets,financial_assets,current_assets,stocks,receivables,cash,total_assets,current_assets.1,issued_capital,retained_earnings,net_income,long_term_debt,short_term_debt,supplier_debt,tax_liabilities,other_liabilities,total_liabilities,revenue,Year,NonCurrentAssets,CurrentAssets,CurrentLiabilities,TotalAssets,IssuedCapital,TotalLiabilities,NetIncome,StocksAndRelief,Revenue,FixedAssets,PermanentCapital\n2022,782439094.5,523415.5,772665851,9249828.0,570999362.6,316981377,246159566.6,7858419.0,1353438475,1171674585,629336748,135000000,494336748.0,542337837.0,181733872.0,90114805.0,26791831.0,52844085.0,1353438457,6750000000,2022,782439094.5,570999362.6,181733872.0,1353438475,629336748,1353438457,494336748.0,316981377,6750000000,772665851,1982775205\n2023,5073299265.0,207465.81,5059366014,14315281.1,644060603.9,336529020,301706574.9,5825009.86,5717359869,5476715831,5059000145,170935371,4888064774.0,417715686.7,240644037.4,112741870.1,4869088314.0,48070333.09,5717359868,17457474193,2023,5073299265.0,644060603.9,240644037.4,5717359869,5059000145,5717359868,4888064774.0,336529020,17457474193,5059366014,10776360013\n2024,5062251073.0,175991.66,5047759800,17286370.5,719986414.2,568591239,129978915.2,21416260.22,5782237487,5538833601,5178762419,4923617330,255145088.6,360071183.4,243403884.8,95965300.05,45910130.69,45178303.44,5782237487,5102901771,2024,5062251073.0,719986414.2,243403884.8,5782237487,5178762419,5782237487,255145088.6,568591239,5102901771,5047759800,10960999906\n",
+    "experience": "10 years in real estate and infrastructure development",
+    "industry": "Construction and Development"
+  },
+  "project_details": {
+    "project_name": "Green Energy Industrial Park",
+    "description": "Development of an industrial park with integrated renewable energy systems",
+    "sector": "Infrastructure",
+    "location": "Algiers, Algeria",
+    "estimated_cost": 25000000,
+    "expected_revenue": 8500000,
+    "payback_period": 6,
+    "duration_months": 30,
+    "objective": "Create a state-of-the-art industrial park with solar power generation, smart grid systems, and sustainable water management",
+    "risks": "Construction delays; regulatory approvals",
+    "social_impact": "Job creation for approximately 2,000 people; reducing carbon emissions by 30,000 tons annually",
+    "environmental_considerations": "Solar power generation; water recycling; energy-efficient buildings"
+  },
+  "enterprise_audit_results": {
+    "score": 0.1583,
+    "summary": "### **Final Audit Opinion & Financial Assessment**  \n\n#### **Overall Verdict: REJECT**  \nBased on the multi-year financial audit data (2022–2024), the company exhibits **persistent high-risk financial health**, with an average score of **0.158 out of 2.0**, far below acceptable thresholds. The **unanimous \"High\" risk level** across all three years, coupled with a **\"REJECT\" verdict**, indicates severe financial instability requiring urgent corrective action.  \n\n---\n\n### **Key Findings & Financial Health Analysis**  \n\n#### **1. Liquidity & Solvency Concerns**  \n- **General Liquidity**:  \n  - Scores remained **stable but weak** (2022: 3.14, 2023: 2.68, 2024: 2.96), indicating **barely adequate short-term asset coverage**.  \n  - **Weighted contribution to the total score was minimal (0.05 each year)**, suggesting liquidity is not a strength.  \n- **Net Debt**:  \n  - **Zero points** in all years, reflecting **excessive leverage** (debt ratios >1.1).  \n  - No improvement in debt management, signaling **reliance on borrowing without repayment capacity**.  \n- **General Solvency Ratio**:  \n  - **Volatile performance** (2022: 2 points, 2023: 2 points, 2024: 0 points).  \n  - The 2024 drop to **1.0 (minimum threshold)** indicates **near-insolvency risk**.  \n\n#### **2. Profitability & Revenue Instability**  \n- **Net Margin**:  \n  - **Highly inconsistent** (2022: 7.3%, 2023: 28%, 2024: 5%).  \n  - The 2023 spike may reflect **non-recurring gains**, while 2024’s collapse suggests **unsustainable operations**.  \n- **Revenue Growth**:  \n  - **2023 growth (1.59) was followed by a sharp 2024 decline (-0.71)**, indicating **volatile demand or poor sales strategy**.  \n  - No clear growth trajectory; revenue instability exacerbates cash flow risks.  \n\n#### **3. Risk Trends & Scoring Breakdown**  \n- **Total scores declined YoY** (2022: 0.175 → 2023: 0.225 → 2024: 0.075), reflecting **deteriorating financial resilience**.  \n- **No \"Low\" or \"Moderate\" risk years**—consistent **high-risk categorization** demands immediate intervention.  \n\n---\n\n### **Recommendations for Financial Recovery**  \n\n#### **1. Debt Restructuring & Cost Control**  \n- **Refinance high-cost debt** to lower interest burdens.  \n- **Implement strict cost-cutting measures** to improve net margins (e.g., renegotiate supplier contracts, reduce overhead).  \n\n#### **2. Liquidity & Working Capital Management**  \n- **Optimize inventory and receivables** to free up cash flow.  \n- **Secure short-term credit facilities** to cover immediate obligations.  \n\n#### **3. Revenue Stabilization Strategies**  \n- **Diversify revenue streams** to reduce dependency on volatile segments.  \n- **Invest in sales/marketing** to reverse negative growth trends.  \n\n#### **4. Governance & Monitoring**  \n- **Appoint a turnaround specialist** to oversee financial rehabilitation.  \n- **Quarterly audits** to track progress on solvency and liquidity KPIs.  \n\n---\n\n### **Conclusion**  \nThe company’s financial position is **unsustainable**, marked by **high debt, erratic profitability, and declining solvency**. Without **urgent corrective measures**, the risk of insolvency or bankruptcy is imminent. A **comprehensive restructuring plan**, including **debt renegotiation, operational efficiency improvements, and revenue diversification**, is critical for survival.  \n\n**Final Opinion: Reject current financial trajectory; recommend immediate remedial action.**  \n\n---  \n**Prepared by:** [Your Name]  \n**Senior Financial Auditor**  \n[Audit Firm Name] | [Date]",
+    "key_ratios": {
+      "2022": {
+        "Current Ratio": 3.142,
+        "Quick Ratio": 1.3977,
+        "Equity Ratio": 0.465,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 2.1506,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.3652,
+        "Return on Equity": 0.7855,
+        "Net Margin": 0.0732,
+        "Revenue Growth": null,
+        "ROE": 0.7855,
+        "ROA": 0.3652,
+        "Working Capital": 1210109354.0,
+        "BFR": 389265490.6,
+        "Cash Position": 820843863.4
+      },
+      "2023": {
+        "Current Ratio": 2.6764,
+        "Quick Ratio": 1.278,
+        "Equity Ratio": 0.8848,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 1.1301,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.855,
+        "Return on Equity": 0.9662,
+        "Net Margin": 0.28,
+        "Revenue Growth": 1.5863,
+        "ROE": 0.9662,
+        "ROA": 0.855,
+        "Working Capital": 5716993999.0,
+        "BFR": 403416566.5,
+        "Cash Position": 5313577432.5
+      },
+      "2024": {
+        "Current Ratio": 2.958,
+        "Quick Ratio": 0.622,
+        "Equity Ratio": 0.8956,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 1.1165,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.0441,
+        "Return on Equity": 0.0493,
+        "Net Margin": 0.05,
+        "Revenue Growth": -0.7077,
+        "ROE": 0.0493,
+        "ROA": 0.0441,
+        "Working Capital": 5913240106.0,
+        "BFR": 476582529.4,
+        "Cash Position": 5436657576.6
+      }
+    },
+    "risk_level": {
+      "Low": 0,
+      "Moderate": 0,
+      "High": 3
+    },
+    "verdict": "REJECT",
+    "warnings": []
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "MODIFY",
+    "confidence": 0.85,
+    "justification": "The project presents a solid financial outlook with a reasonable payback period and expected annual revenue. However, the identified risks, particularly concerning construction delays and regulatory approvals, raise concerns about the project's execution. Additionally, while the client has relevant experience, further assessment of their track record in similar projects is necessary to ensure credibility. To enhance the project's viability, I recommend developing a comprehensive risk mitigation strategy that addresses the identified risks and ensures compliance with local regulations. Furthermore, a detailed feasibility study focusing on the market potential in Algeria for green energy initiatives should be conducted to bolster confidence in revenue projections.",
+    "identified_risks": [
+      "Construction delays",
+      "Regulatory approvals"
+    ],
+    "shariah_preliminary_fit": "The project appears to align with Shariah principles as it focuses on sustainable development and renewable energy, which are generally viewed favorably. However, a detailed Shariah compliance review is recommended to ensure all aspects of the project adhere to Islamic finance principles."
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Istisna'a",
+    "contract_probabilities": {
+      "Musharakah": 0.15,
+      "Murabaha": 0.1,
+      "Istisna'a": 0.6,
+      "Ijarah": 0.1,
+      "Salam": 0.05
+    },
+    "relevant_aaoifi_fas": [
+      "FAS 10",
+      "SS 11"
+    ],
+    "justification": "The Istisna'a contract is most suitable for the Green Energy Industrial Park project as it involves construction and manufacturing of custom assets, allowing for deferred payment and specific project specifications. Given the project's nature and the client's financial instability, this contract structure mitigates upfront capital requirements while aligning with Shariah principles.",
+    "key_parameters_required": [
+      "Project specifications",
+      "Payment schedule"
+    ],
+    "supporting_contracts": [
+      "Murabaha",
+      "Ijarah"
+    ]
+  },
+  "formalized_contract": {
+    "document_text_summary": "# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a financing structure will facilitate the construction of the Green Energy Industrial Park in Algiers, Algeria. The Islamic bank will act as the financier/manufacturer (Al-Sani') to oversee the project's development based on precise specifications, with ownership transferring to the client (Al-Mustasni') upon completion against deferred payments. This structure addresses the client's financial constraints while ensuring Shariah compliance.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a and Wakalah arrangements\n- **Parties:** \n  - Green Energy Developers (Client/End Buyer)\n  - Al Barakah Islamic Bank (Financier/Manufacturer)\n  - Sustainable Build Consortium (Primary Contractor)\n  - Shariah Advisory Board (Independent Compliance Oversight)\n- **Subject Matter:** Custom-built industrial park with solar power generation, smart grid systems, and sustainable water management infrastructure\n- **Timeline:** \n  - 24-month construction period\n  - 48-month deferred payment period (total 6-year timeline)\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $25,000,000 (Cost Price) + $3,750,000 (Profit) = $28,750,000 (Istisna'a Price)\n- **Payment Mechanism:** \n  - 10% advance payment ($2,875,000) by client at contract signing\n  - 90% balance ($25,875,000) in 16 equal quarterly installments of $1,617,187.50\n- **Profit/Return Structure:** Fixed profit margin of 15% on cost price, fully disclosed upfront\n- **Risk Distribution:** \n  - Bank bears construction risk until final delivery\n  - Client bears payment obligation risk post-delivery\n  - Contractor bears performance risk under Parallel Istisna'a\n\n## KEY CONTRACT PROVISIONS\n1. **Detailed Technical Specifications:** Comprehensive project blueprints and performance benchmarks attached as contract annexures (AAOIFI FAS 10 requirement)\n2. **Milestone Payments:** Contractor payments tied to certified completion percentages (25%, 50%, 75%, 100%)\n3. **Independent Engineer:** Third-party technical auditor to verify construction quality and progress\n4. **Regulatory Compliance Escrow:** 5% of contract value held in reserve until all government approvals obtained\n5. **Force Majeure:** Mutual termination rights if regulatory approvals not obtained within 12 months\n6. **Late Payment Mechanism:** Donations to approved charities rather than bank penalties\n7. **Performance Guarantees:** Contractor provides 15% performance bond to bank\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Asset Ownership:** Bank maintains legal title throughout construction phase\n2. **Price Transparency:** Full disclosure of cost components and profit margin\n3. **Prohibition of Gharar:** All specifications and timelines clearly defined\n4. **Sequential Contracts:** Proper separation between Istisna'a and Parallel Istisna'a agreements\n5. **Shariah Audit:** Quarterly reviews by independent Shariah board\n6. **Charity Clause:** Any unanticipated penalties directed to Islamic social welfare funds\n7. **Commodity-Backed:** All payments backed by actual asset construction\n\n## EXECUTION PROCESS\n1. **Feasibility Phase:** \n   - Client submits complete technical specifications and feasibility study\n   - Bank conducts dual technical and Shariah due diligence\n\n2. **Contracting Phase:** \n   - Client signs binding promise to purchase (Wa'd Mulzim)\n   - Bank executes:\n     - Primary Istisna'a with client\n     - Parallel Istisna'a with contractor\n     - Wakalah agreement with project manager\n\n3. **Construction Phase:** \n   - Bank disburses funds to contractor against certified milestones\n   - Independent engineer conducts quarterly progress audits\n   - Shariah board monitors transaction flows\n\n4. **Delivery Phase:** \n   - Final inspection and acceptance by client\n   - Ownership transfer documentation executed\n   - Regulatory compliance certificates obtained\n\n5. **Repayment Phase:** \n   - Client begins quarterly installments\n   - Bank releases performance guarantees progressively\n   - Final settlement upon last payment",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "formalized",
+    "signed_date": null
+  },
+  "accounting_entries_report": {
+    "content": "# A. Initial Contract Details\n\n1. **Roles:**\n   - **Seller (Al-Sani')**: Al Barakah Islamic Bank acts as the seller under the Istisna'a contract with the client, Green Energy Developers.\n   - **Buyer (Al-Mustasni')**: Al Barakah Islamic Bank also acts as the buyer under the Parallel Istisna'a contract with the Sustainable Build Consortium.\n\n2. **Contract Details:**\n   - **Total Contract Value with Client**: $28,750,000 (including profit)\n   - **Construction Cost under Parallel Istisna'a**: $25,000,000\n   - **Timeline of Construction and Delivery**: 24 months for construction\n   - **Payment Schedule from Client**: \n     - 10% advance payment of $2,875,000 at contract signing\n     - 90% balance of $25,875,000 in 16 equal quarterly installments of $1,617,187.50 starting after delivery\n\n---\n\n# B. Step-by-Step Revenue Recognition (Quarterly)\n\nAssuming that the total estimated cost is $25,000,000, the total profit is $3,750,000, and the construction progresses evenly, we will calculate the quarterly figures as follows:\n\n### Quarterly Breakdown\n\n- **Total Estimated Cost**: $25,000,000\n- **Total Estimated Profit**: $3,750,000\n- **Total Sale Price**: $28,750,000\n\n#### Quarterly Calculations\n\n| Quarter | Cumulative Cost | % Completion | Cumulative Revenue | Cumulative Profit | Incremental Revenue | Incremental Cost | Incremental Profit |\n|---------|------------------|--------------|--------------------|-------------------|---------------------|-------------------|---------------------|\n| Q1      | $6,250,000       | 25%          | $7,187,500         | $937,500          | $7,187,500          | $6,250,000        | $937,500            |\n| Q2      | $12,500,000      | 50%          | $14,375,000        | $1,875,000        | $7,187,500          | $6,250,000        | $937,500            |\n| Q3      | $18,750,000      | 75%          | $21,562,500        | $2,812,500        | $7,187,500          | $6,250,000        | $937,500            |\n| Q4      | $25,000,000      | 100%         | $28,750,000        | $3,750,000        | $7,187,500          | $6,250,000        | $937,500            |\n\n---\n\n# C. Journal Entries (By Quarter)\n\n### Q1\n1. **Cost Incurred**\n   - Dr. WIP $6,250,000\n   - Cr. Payables $6,250,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $7,187,500\n   - Cr. Revenue $7,187,500\n   - Cr. Profit $937,500\n\n### Q2\n1. **Cost Incurred**\n   - Dr. WIP $6,250,000\n   - Cr. Payables $6,250,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $7,187,500\n   - Cr. Revenue $7,187,500\n   - Cr. Profit $937,500\n\n### Q3\n1. **Cost Incurred**\n   - Dr. WIP $6,250,000\n   - Cr. Payables $6,250,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $7,187,500\n   - Cr. Revenue $7,187,500\n   - Cr. Profit $937,500\n\n### Q4\n1. **Cost Incurred**\n   - Dr. WIP $6,250,000\n   - Cr. Payables $6,250,000\n\n2. **Revenue and Profit Recognition**\n   - Dr. Istisna'a Receivable $7,187,500\n   - Cr. Revenue $7,187,500\n   - Cr. Profit $937,500\n\n---\n\n# D. Payment Collection (Post-Delivery)\n\nAssuming delivery is completed at Q4, the following payments will be recorded:\n\n### Payment Collection Entries\n\n1. **P1 (First Payment)**\n   - Dr. Cash/Bank $1,617,187.50\n   - Cr. Istisna'a Receivable $1,617,187.50\n\n2. **P2 (Second Payment)**\n   - Dr. Cash/Bank $1,617,187.50\n   - Cr. Istisna'a Receivable $1,617,187.50\n\n3. **P3 (Third Payment)**\n   - Dr. Cash/Bank $1,617,187.50\n   - Cr. Istisna'a Receivable $1,617,187.50\n\n4. **P4 (Fourth Payment)**\n   - Dr. Cash/Bank $1,617,187.50\n   - Cr. Istisna'a Receivable $1,617,187.50\n\n---\n\n# E. Ledger Table (Q1 to Q4 + P1 to P4)\n\n| Period  | WIP (Dr)      | Receivable (Dr) | Revenue (Cr)     | Cost of Sales (Dr) | Profit (Cr)     | Payables (Cr)   | Cash Received (Dr) |\n|---------|---------------|------------------|-------------------|---------------------|------------------|------------------|---------------------|\n| Q1      | $6,250,000    | $7,187,500       | $7,187,500        | $6,250,000          | $937,500         | $6,250,000       |                     |\n| Q2      | $6,250,000    | $7,187,500       | $7,187,500        | $6,250,000          | $937,500         | $6,250,000       |                     |\n| Q3      | $6,250,000    | $7,187,500       | $7,187,500        | $6,250,000          | $937,500         | $6,250,000       |                     |\n| Q4      | $6,250,000    | $7,187,500       | $7,187,500        | $6,250,000          | $937,500         | $6,250,000       |                     |\n| P1      | –             | –                | –                 | –                   | –                | –                | $1,617,187.50       |\n| P2      | –             | –                | –                 | –                   | –                | –                | $1,617,187.50       |\n| P3      | –             | –                | –                 | –                   | –                | –                | $1,617,187.50       |\n| P4      | –             | –                | –                 | –                   | –                | –                | $1,617,187.50       |\n| **Total**| $25,000,000   | $28,750,000      | $28,750,000       | $25,000,000         | $3,750,000       | $25,000,000      | $6,468,750          |\n\n--- \n\nThis structured approach ensures compliance with AAOIFI standards while accurately reflecting the financial transactions associated with the Istisna'a and Parallel Istisna'a contracts.",
+    "contract_type": "Istisna'a",
+    "status": "completed"
+  },
+  "shariah_compliance_report": {
+    "status": "compliant",
+    "message": "No Shariah compliance issues detected",
+    "details": [],
+    "overall_status": "PASS",
+    "timestamp": "2025-05-17T23:30:12.011997"
+  },
+  "country_law_validation_report": {
+    "status": "completed",
+    "is_compliant": true,
+    "issues_or_risks": [],
+    "notes_or_observations": [
+      "Based on the provided text, the Istisna'a financing structure appears to be compliant with Algerian law, particularly given the reference to Banque d'Algérie validating Al Baraka Algérie and the mention of Istisna'a as one of the authorized products. The structure also includes Shariah compliance safeguards and risk mitigation measures. The contract incorporates elements aligning with best practices and may face no issues in Algeria."
+    ],
+    "confidence_score": 0.75,
+    "retrieved_context_summary": "Retrieved 5 context snippets.",
+    "country_profile": "Algeria (analyzed)"
+  },
+  "processing_log": [
+    {
+      "agent": "Test Script",
+      "timestamp": "2025-05-17T23:26:53.125654",
+      "message": "PCO initialized for testing seven agents.",
+      "status": "system"
+    },
+    {
+      "agent": "EnterpriseAuditAgent",
+      "timestamp": "2025-05-17T23:27:14.467402",
+      "status": "completed",
+      "message": "Company financial audit completed successfully.",
+      "completed_at": "2025-05-17T23:27:50.068110"
+    },
+    {
+      "agent": "ProjectEvaluationAgent",
+      "timestamp": "2025-05-17T23:27:50.068153",
+      "status": "completed",
+      "message": "Project evaluated as viable.",
+      "completed_at": "2025-05-17T23:27:58.709563"
+    },
+    {
+      "agent": "IslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T23:27:58.709600",
+      "status": "completed",
+      "message": "Contract type Istisna'a selected.",
+      "completed_at": "2025-05-17T23:28:03.443778"
+    },
+    {
+      "agent": "ContractDraftingAgent",
+      "timestamp": "2025-05-17T23:28:03.443821",
+      "status": "completed",
+      "message": "Contract draft completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T23:29:17.100253"
+    },
+    {
+      "agent": "AccountingAgent",
+      "timestamp": "2025-05-17T23:29:17.100295",
+      "status": "completed",
+      "message": "Accounting entries generation completed for Istisna'a contract.",
+      "completed_at": "2025-05-17T23:30:07.899296"
+    },
+    {
+      "agent": "ShariahComplianceValidatorAgent",
+      "timestamp": "2025-05-17T23:30:07.899357",
+      "status": "started"
+    },
+    {
+      "agent": "ShariahComplianceValidatorAgent",
+      "timestamp": "2025-05-17T23:30:07.999456",
+      "message": "Starting Shariah compliance validation.",
+      "status": "completed",
+      "completed_at": "2025-05-17T23:30:12.012304"
+    },
+    {
+      "agent": "CountryLawsValidatorAgent",
+      "timestamp": "2025-05-17T23:30:12.012345",
+      "status": "completed",
+      "message": "Country law validation completed successfully.",
+      "completed_at": "2025-05-17T23:30:14.881176"
+    }
+  ],
+  "current_status": "pending_final_decision",
+  "error_info": null,
+  "contract_draft": {
+    "content": "# ISLAMIC FINANCING SCENARIO: ISTISNA'A\n\n## CONTRACT OVERVIEW\nThis Istisna'a financing structure will facilitate the construction of the Green Energy Industrial Park in Algiers, Algeria. The Islamic bank will act as the financier/manufacturer (Al-Sani') to oversee the project's development based on precise specifications, with ownership transferring to the client (Al-Mustasni') upon completion against deferred payments. This structure addresses the client's financial constraints while ensuring Shariah compliance.\n\n## CONTRACT STRUCTURE\n- **Contract Type:** Istisna'a with Parallel Istisna'a and Wakalah arrangements\n- **Parties:** \n  - Green Energy Developers (Client/End Buyer)\n  - Al Barakah Islamic Bank (Financier/Manufacturer)\n  - Sustainable Build Consortium (Primary Contractor)\n  - Shariah Advisory Board (Independent Compliance Oversight)\n- **Subject Matter:** Custom-built industrial park with solar power generation, smart grid systems, and sustainable water management infrastructure\n- **Timeline:** \n  - 24-month construction period\n  - 48-month deferred payment period (total 6-year timeline)\n\n## FINANCIAL STRUCTURE\n- **Total Financing Amount:** $25,000,000 (Cost Price) + $3,750,000 (Profit) = $28,750,000 (Istisna'a Price)\n- **Payment Mechanism:** \n  - 10% advance payment ($2,875,000) by client at contract signing\n  - 90% balance ($25,875,000) in 16 equal quarterly installments of $1,617,187.50\n- **Profit/Return Structure:** Fixed profit margin of 15% on cost price, fully disclosed upfront\n- **Risk Distribution:** \n  - Bank bears construction risk until final delivery\n  - Client bears payment obligation risk post-delivery\n  - Contractor bears performance risk under Parallel Istisna'a\n\n## KEY CONTRACT PROVISIONS\n1. **Detailed Technical Specifications:** Comprehensive project blueprints and performance benchmarks attached as contract annexures (AAOIFI FAS 10 requirement)\n2. **Milestone Payments:** Contractor payments tied to certified completion percentages (25%, 50%, 75%, 100%)\n3. **Independent Engineer:** Third-party technical auditor to verify construction quality and progress\n4. **Regulatory Compliance Escrow:** 5% of contract value held in reserve until all government approvals obtained\n5. **Force Majeure:** Mutual termination rights if regulatory approvals not obtained within 12 months\n6. **Late Payment Mechanism:** Donations to approved charities rather than bank penalties\n7. **Performance Guarantees:** Contractor provides 15% performance bond to bank\n\n## SHARIAH COMPLIANCE SAFEGUARDS\n1. **Asset Ownership:** Bank maintains legal title throughout construction phase\n2. **Price Transparency:** Full disclosure of cost components and profit margin\n3. **Prohibition of Gharar:** All specifications and timelines clearly defined\n4. **Sequential Contracts:** Proper separation between Istisna'a and Parallel Istisna'a agreements\n5. **Shariah Audit:** Quarterly reviews by independent Shariah board\n6. **Charity Clause:** Any unanticipated penalties directed to Islamic social welfare funds\n7. **Commodity-Backed:** All payments backed by actual asset construction\n\n## EXECUTION PROCESS\n1. **Feasibility Phase:** \n   - Client submits complete technical specifications and feasibility study\n   - Bank conducts dual technical and Shariah due diligence\n\n2. **Contracting Phase:** \n   - Client signs binding promise to purchase (Wa'd Mulzim)\n   - Bank executes:\n     - Primary Istisna'a with client\n     - Parallel Istisna'a with contractor\n     - Wakalah agreement with project manager\n\n3. **Construction Phase:** \n   - Bank disburses funds to contractor against certified milestones\n   - Independent engineer conducts quarterly progress audits\n   - Shariah board monitors transaction flows\n\n4. **Delivery Phase:** \n   - Final inspection and acceptance by client\n   - Ownership transfer documentation executed\n   - Regulatory compliance certificates obtained\n\n5. **Repayment Phase:** \n   - Client begins quarterly installments\n   - Bank releases performance guarantees progressively\n   - Final settlement upon last payment",
+    "contract_type": "Istisna'a",
+    "version": "1.0",
+    "status": "draft_completed"
+  }
+}

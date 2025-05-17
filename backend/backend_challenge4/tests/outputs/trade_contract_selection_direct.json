@@ -1,0 +1,30 @@
+{
+  "primary_contract_type": "Murabaha",
+  "contract_probabilities": {
+    "Murabaha": 75.0,
+    "Salam": 15.0,
+    "Musharakah": 10.0,
+    "Istisna'a": 0.0,
+    "Ijarah": 0.0
+  },
+  "justifications": {
+    "Murabaha": "Ideal for trade financing where goods are purchased and resold with a markup.",
+    "Salam": "Could be used if advance payment is made for future delivery of standardized goods.",
+    "Musharakah": "Possible but less common for straightforward trade transactions.",
+    "Istisna'a": "Not applicable as the goods already exist and aren't being manufactured.",
+    "Ijarah": "Not typically used for trading goods."
+  },
+  "relevant_aaoifi_standards": {
+    "Murabaha": [
+      "FAS 28",
+      "SS 8"
+    ]
+  },
+  "key_parameters_required": [
+    "cost_price",
+    "markup",
+    "payment_terms",
+    "goods_specifications",
+    "delivery_schedule"
+  ]
+}

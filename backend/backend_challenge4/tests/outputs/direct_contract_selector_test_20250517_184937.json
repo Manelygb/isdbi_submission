@@ -1,0 +1,77 @@
+{
+  "case_id": "test_direct_123",
+  "request_timestamp": "2025-05-17 18:49:33.572041",
+  "client_details": {
+    "client_name": "Test Manufacturing Co.",
+    "client_type": "company"
+  },
+  "project_details": {
+    "project_name": "Factory Expansion Project",
+    "description": "Expanding an existing manufacturing facility with new equipment and buildings",
+    "estimated_cost": 1500000,
+    "duration_months": 18
+  },
+  "enterprise_audit_results": {
+    "score": 0.85,
+    "summary": "The company shows strong financial performance with moderate risk profile.",
+    "key_ratios": {
+      "2023": {
+        "Current Ratio": 1.8,
+        "Quick Ratio": 1.2,
+        "Debt Ratio": 0.45
+      }
+    },
+    "risk_level": {
+      "Low": 2,
+      "Moderate": 1,
+      "High": 0
+    }
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "APPROVE",
+    "confidence": 0.82,
+    "justification": "The project has a strong financial outlook and aligns with the company's core business.",
+    "identified_risks": [
+      "Supply chain disruptions",
+      "Regulatory changes"
+    ],
+    "shariah_preliminary_fit": "The project appears to comply with Shariah principles."
+  },
+  "processing_log": [
+    {
+      "agent": "TestRunner",
+      "timestamp": "2025-05-17 18:49:33.572052",
+      "message": "Starting test",
+      "status": "test"
+    },
+    {
+      "agent": "IslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T18:49:33.572060",
+      "status": "completed",
+      "message": "Contract type Istisna'a selected.",
+      "completed_at": "2025-05-17T18:49:37.668655"
+    }
+  ],
+  "current_status": "pending_contract_formalization",
+  "selected_contract_details": {
+    "primary_contract_type": "Istisna'a",
+    "justification": "Selected Istisna'a as it's suitable for construction and manufacturing projects.",
+    "key_parameters_required": [
+      "detailed_asset_specs",
+      "price",
+      "delivery_schedule",
+      "quality_standards"
+    ],
+    "relevant_aaoifi_fas": [
+      "FAS 10"
+    ],
+    "contract_probabilities": {
+      "Istisna'a": 0.2,
+      "Murabaha": 0.2,
+      "Ijara": 0.2,
+      "Musharaka": 0.2,
+      "Salam": 0.2
+    }
+  }
+}

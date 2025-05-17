@@ -1,0 +1,127 @@
+{
+  "case_id": "1efdabb7-ac80-417a-9123-39688525ef78",
+  "request_timestamp": "2025-05-17T21:07:20.092011",
+  "client_details": {
+    "client_name": "Algerian Development Corporation",
+    "client_type": "company",
+    "financial_data_csv": "year,non_current_assets,intangible_assets,tangible_assets,financial_assets,current_assets,stocks,receivables,cash,total_assets,current_assets.1,issued_capital,retained_earnings,net_income,long_term_debt,short_term_debt,supplier_debt,tax_liabilities,other_liabilities,total_liabilities,revenue,Year,NonCurrentAssets,CurrentAssets,CurrentLiabilities,TotalAssets,IssuedCapital,TotalLiabilities,NetIncome,StocksAndRelief,Revenue,FixedAssets,PermanentCapital\n2022,782439094.5,523415.5,772665851,9249828.0,570999362.6,316981377,246159566.6,7858419.0,1353438475,1171674585,629336748,135000000,494336748.0,542337837.0,181733872.0,90114805.0,26791831.0,52844085.0,1353438457,6750000000,2022,782439094.5,570999362.6,181733872.0,1353438475,629336748,1353438457,494336748.0,316981377,6750000000,772665851,1982775205\n2023,5073299265.0,207465.81,5059366014,14315281.1,644060603.9,336529020,301706574.9,5825009.86,5717359869,5476715831,5059000145,170935371,4888064774.0,417715686.7,240644037.4,112741870.1,4869088314.0,48070333.09,5717359868,17457474193,2023,5073299265.0,644060603.9,240644037.4,5717359869,5059000145,5717359868,4888064774.0,336529020,17457474193,5059366014,10776360013\n2024,5062251073.0,175991.66,5047759800,17286370.5,719986414.2,568591239,129978915.2,21416260.22,5782237487,5538833601,5178762419,4923617330,255145088.6,360071183.4,243403884.8,95965300.05,45910130.69,45178303.44,5782237487,5102901771,2024,5062251073.0,719986414.2,243403884.8,5782237487,5178762419,5782237487,255145088.6,568591239,5102901771,5047759800,10960999906\n",
+    "experience": "10 years in real estate and infrastructure development",
+    "industry": "Construction and Development"
+  },
+  "project_details": {
+    "project_name": "Green Energy Industrial Park",
+    "description": "Development of an industrial park with integrated renewable energy systems",
+    "sector": "Infrastructure",
+    "location": "Algiers, Algeria",
+    "estimated_cost": 25000000,
+    "expected_revenue": 5000000,
+    "payback_period": 8,
+    "duration_months": 36,
+    "objective": "Create a state-of-the-art industrial park with solar power generation, smart grid systems, and sustainable water management",
+    "risks": "Construction delays; regulatory approvals; market demand fluctuations",
+    "social_impact": "Job creation for approximately 2,000 people; reducing carbon emissions by 30,000 tons annually",
+    "environmental_considerations": "Solar power generation; water recycling; energy-efficient buildings"
+  },
+  "enterprise_audit_results": {
+    "score": 0.1583,
+    "summary": "### **Final Audit Opinion & Financial Assessment**  \n\n**Company Name:** [Company Name]  \n**Audit Period:** 2022–2024  \n**Overall Verdict:** **REJECT** (High Risk)  \n\n---\n\n### **Key Findings & Financial Health Summary**  \n\n1. **Persistently High Financial Risk**  \n   - The company has maintained a **\"High\" risk level** across all three years (2022–2024), with an **average score of 0.158 out of 2.0**, far below acceptable thresholds.  \n   - The **\"REJECT\" verdict** is justified due to weak liquidity, poor solvency, and inconsistent profitability.  \n\n2. **Liquidity Concerns**  \n   - **General Liquidity** (current ratio) fluctuated between **2.68–3.14**, which is **adequate** (typically >1.5 is acceptable). However, this is offset by other critical weaknesses.  \n   - **Net Debt** remains problematic, with **no points scored** in any year, indicating **excessive leverage** and potential cash flow strain.  \n\n3. **Solvency & Profitability Weaknesses**  \n   - **General Solvency Ratio** (ability to meet long-term obligations) was **barely above 1.0** in 2022–2023 but **dropped to exactly 1.0 in 2024**, signaling **minimal equity cushion** against liabilities.  \n   - **Net Margin** was **volatile**:  \n     - **2022 (7.3%)** → **2023 (28.0%)** → **2024 (5.0%)**  \n     - The 2023 spike may be an anomaly, while 2024’s sharp decline suggests **operational inefficiencies or rising costs**.  \n\n4. **Revenue Growth Instability**  \n   - **2023:** Strong growth (**+158.6%**)  \n   - **2024:** Sharp decline (**-70.8%**)  \n   - This **extreme volatility** raises concerns about **sustainability and market positioning**.  \n\n---\n\n### **Trend Analysis & Major Risks**  \n\n| **Metric**          | **2022**       | **2023**       | **2024**       | **Trend**          |\n|---------------------|---------------|---------------|---------------|--------------------|\n| **Liquidity**       | 3.14          | 2.68          | 2.96          | Slight decline     |\n| **Net Debt**        | 2.15          | 1.13          | 1.12          | Improving, but still high |\n| **Solvency**        | 1.000000013   | 1.00000000017 | 1.0           | Deteriorating      |\n| **Net Margin (%)**  | 7.3%          | 28.0%         | 5.0%          | Highly volatile    |\n| **Revenue Growth**  | N/A           | +158.6%       | -70.8%        | Unsustainable swings |\n\n**Key Risks Identified:**  \n- **High debt burden** (Net Debt remains elevated).  \n- **Solvency at critical levels** (2024 ratio = 1.0 is a red flag).  \n- **Profitability collapse** in 2024 suggests **cost control or pricing issues**.  \n- **Revenue instability** indicates **unreliable business model or market shocks**.  \n\n---\n\n### **Recommendations for Improvement**  \n\n1. **Debt Restructuring & Cost Control**  \n   - **Refinance high-cost debt** to reduce interest burdens.  \n   - **Implement strict cost controls** to stabilize margins.  \n\n2. **Strengthen Solvency**  \n   - **Increase equity financing** to improve the solvency ratio.  \n   - **Divest non-core assets** if necessary to reduce liabilities.  \n\n3. **Revenue Stabilization Strategy**  \n   - **Diversify revenue streams** to mitigate volatility.  \n   - **Improve forecasting & pricing strategies** to prevent drastic declines.  \n\n4. **Operational Efficiency Review**  \n   - **Audit supply chain & overhead costs** to identify inefficiencies.  \n   - **Optimize working capital** to improve cash flow.  \n\n---\n\n### **Final Conclusion**  \n\nThe company’s financial health is **unstable and high-risk**, with **persistent weaknesses in solvency, debt management, and profitability**. While liquidity is acceptable, it is insufficient to offset other critical risks.  \n\n**Immediate corrective actions are required** to avoid further deterioration. If no significant improvements are made, the company may face **liquidity crises or insolvency risks** in the near future.  \n\n**Recommended Next Steps:**  \n✅ **Engage financial advisors** for restructuring.  \n✅ **Conduct a deep operational audit** to identify inefficiencies.  \n✅ **Secure emergency financing** if cash flow worsens.  \n\n**Auditor’s Signature:**  \n[Your Name]  \nSenior Financial Auditor  \n[Date]",
+    "key_ratios": {
+      "2022": {
+        "Current Ratio": 3.142,
+        "Quick Ratio": 1.3977,
+        "Equity Ratio": 0.465,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 2.1506,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.3652,
+        "Return on Equity": 0.7855,
+        "Net Margin": 0.0732,
+        "Revenue Growth": null,
+        "ROE": 0.7855,
+        "ROA": 0.3652,
+        "Working Capital": 1210109354.0,
+        "BFR": 389265490.6,
+        "Cash Position": 820843863.4
+      },
+      "2023": {
+        "Current Ratio": 2.6764,
+        "Quick Ratio": 1.278,
+        "Equity Ratio": 0.8848,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 1.1301,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.855,
+        "Return on Equity": 0.9662,
+        "Net Margin": 0.28,
+        "Revenue Growth": 1.5863,
+        "ROE": 0.9662,
+        "ROA": 0.855,
+        "Working Capital": 5716993999.0,
+        "BFR": 403416566.5,
+        "Cash Position": 5313577432.5
+      },
+      "2024": {
+        "Current Ratio": 2.958,
+        "Quick Ratio": 0.622,
+        "Equity Ratio": 0.8956,
+        "Debt Ratio": 1.0,
+        "Net Debt Ratio": 1.1165,
+        "General Solvency Ratio": 1.0,
+        "Return on Assets": 0.0441,
+        "Return on Equity": 0.0493,
+        "Net Margin": 0.05,
+        "Revenue Growth": -0.7077,
+        "ROE": 0.0493,
+        "ROA": 0.0441,
+        "Working Capital": 5913240106.0,
+        "BFR": 476582529.4,
+        "Cash Position": 5436657576.6
+      }
+    },
+    "risk_level": {
+      "Low": 0,
+      "Moderate": 0,
+      "High": 3
+    },
+    "verdict": "REJECT",
+    "warnings": []
+  },
+  "project_evaluation_results": {
+    "is_viable": false,
+    "decision": "REJECT",
+    "confidence": 0.85,
+    "justification": "The project has a low revenue-to-cost ratio of 0.2 (calculated as $5,000,000 expected annual revenue divided by $25,000,000 estimated cost), which is below the acceptable threshold of 0.3. This indicates that the project may not generate sufficient revenue to cover its costs effectively, raising concerns about its financial viability. Additionally, while the client has substantial experience in real estate and infrastructure, the significant payback period of 8 years is relatively long compared to similar projects, which typically have shorter payback periods. The identified risks, including construction delays and regulatory approvals, could further exacerbate the financial challenges. Given these factors, the project does not meet the financial and risk management criteria necessary for approval.",
+    "identified_risks": [
+      "Construction delays",
+      "Regulatory approvals",
+      "Market demand fluctuations"
+    ],
+    "shariah_preliminary_fit": "The project appears to align with Shariah principles as it focuses on sustainable energy and infrastructure development, but further detailed review is necessary to confirm compliance with specific financial structures and contracts."
+  },
+  "selected_contract_details": null,
+  "formalized_contract": null,
+  "processing_log": [
+    {
+      "agent": "Test Script",
+      "timestamp": "2025-05-17T21:07:20.092027",
+      "message": "PCO initialized for testing first 4 agents.",
+      "status": "system"
+    },
+    {
+      "agent": "EnterpriseAuditAgent",
+      "timestamp": "2025-05-17T21:07:26.781572",
+      "status": "completed",
+      "message": "Company financial audit completed successfully.",
+      "completed_at": "2025-05-17T21:08:34.008552"
+    },
+    {
+      "agent": "ProjectEvaluationAgent",
+      "timestamp": "2025-05-17T21:08:34.008614",
+      "status": "completed",
+      "message": "Project evaluated as NOT viable.",
+      "completed_at": "2025-05-17T21:08:38.910018"
+    }
+  ],
+  "current_status": "project_rejected_evaluation",
+  "error_info": null
+}

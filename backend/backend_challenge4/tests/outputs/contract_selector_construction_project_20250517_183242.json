@@ -1,0 +1,33 @@
+{
+  "case_id": "fa171741-c0f4-43e2-992d-9d86d075aa67",
+  "request_timestamp": "2025-05-17T18:32:42.759231",
+  "client_details": {
+    "client_name": "ABC Building Corp",
+    "client_type": "company",
+    "financial_data_csv": "Year,CurrentAssets,CurrentLiabilities,StocksAndRelief,IssuedCapital,TotalLiabilities,TotalAssets,NetIncome,Revenue,NonCurrentAssets,PermanentCapital,FixedAssets\n2021,35000,18000,5000,20000,30000,60000,5500,52000,20000,48000,19000\n2022,40000,19000,5500,22000,32000,65000,6000,56000,22000,52000,21000\n2023,45000,20000,6000,24000,34000,70000,6500,60000,24000,56000,23000"
+  },
+  "project_details": {
+    "project_name": "Commercial Building Construction",
+    "description": "Construction of a 10-story office building using sustainable materials",
+    "estimated_cost": 5000000,
+    "duration_months": 24
+  },
+  "enterprise_audit_results": null,
+  "project_evaluation_results": null,
+  "selected_contract_details": null,
+  "formalized_contract": null,
+  "accounting_entries_report": null,
+  "shariah_compliance_report": null,
+  "country_law_validation_report": null,
+  "final_decision_report": null,
+  "processing_log": [
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T18:32:42.759234",
+      "message": "PCO initialized.",
+      "status": "system"
+    }
+  ],
+  "current_status": "initial",
+  "error_info": null
+}

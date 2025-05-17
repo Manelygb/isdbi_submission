@@ -1,0 +1,17 @@
+.grid_3{
+    display: flex;
+    gap: 4rem;
+}
+
+.grid_3 .item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.grid_3 .item p:nth-child(1){
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
+}

@@ -1,0 +1,81 @@
+{
+  "case_id": "c8128c11-bc2b-4e29-896c-33469cafdaf6",
+  "request_timestamp": "2025-05-17T18:13:03.325191",
+  "client_details": {
+    "client_name": "Al-Baraka Construction & Development",
+    "client_type": "company",
+    "financial_data_csv": "Year,CurrentAssets,CurrentLiabilities,StocksAndRelief,IssuedCapital,TotalLiabilities,TotalAssets,NetIncome,Revenue,NonCurrentAssets,PermanentCapital,FixedAssets\n2021,30000,15000,5000,20000,30000,60000,5000,50000,20000,50000,18000\n2022,35000,16000,6000,22000,33000,66000,7000,55000,22000,55000,21000\n2023,40000,17000,5500,24000,35000,70000,6500,60000,25000,60000,24000\n"
+  },
+  "project_details": {
+    "project_name": "Smart Manufacturing Facility",
+    "sector": "Manufacturing / Technology",
+    "location": "Industrial Zone, Dubai, UAE",
+    "estimated_cost": 12000000,
+    "expected_revenue": 3500000,
+    "payback_period": 4.8,
+    "duration_months": 18,
+    "risks": "Construction delays; Technology integration challenges; Regulatory approvals",
+    "objective": "Construct a state-of-the-art smart manufacturing facility with IoT integration",
+    "description": "This project involves building a 15,000 square meter manufacturing facility with integrated IoT systems, automated production lines, and advanced quality control. The facility will produce electronic components for the automotive and aerospace industries."
+  },
+  "enterprise_audit_results": {
+    "score": 1.75,
+    "summary": "The company shows strong financial health with good liquidity and solvency ratios.",
+    "key_ratios": {
+      "2021": {
+        "Current Ratio": 1.8,
+        "Debt Ratio": 0.4
+      },
+      "2022": {
+        "Current Ratio": 2.1,
+        "Debt Ratio": 0.35
+      }
+    },
+    "risk_level": {
+      "Low": 2,
+      "Moderate": 0,
+      "High": 0
+    },
+    "verdict": "APPROVE",
+    "warnings": []
+  },
+  "project_evaluation_results": {
+    "is_viable": true,
+    "decision": "APPROVE",
+    "confidence": 0.85,
+    "justification": "The project has a strong business case with reasonable payback period and experienced management.",
+    "identified_risks": [
+      "Construction timeline risks",
+      "Initial cash flow constraints",
+      "Regulatory compliance challenges"
+    ],
+    "shariah_preliminary_fit": "High compatibility with Islamic finance structures"
+  },
+  "selected_contract_details": {
+    "primary_contract_type": "Undetermined",
+    "justification": "Error during contract selection process.",
+    "error": "'NoneType' object is not iterable"
+  },
+  "formalized_contract": null,
+  "accounting_entries_report": null,
+  "shariah_compliance_report": null,
+  "country_law_validation_report": null,
+  "final_decision_report": null,
+  "processing_log": [
+    {
+      "agent": "Orchestrator",
+      "timestamp": "2025-05-17T18:13:03.325211",
+      "message": "PCO initialized.",
+      "status": "system"
+    },
+    {
+      "agent": "IslamicContractSelectorAgent",
+      "timestamp": "2025-05-17T18:13:03.325235",
+      "status": "completed",
+      "message": "Error during contract selection: 'NoneType' object is not iterable",
+      "completed_at": "2025-05-17T18:13:05.832401"
+    }
+  ],
+  "current_status": "error_contract_selection",
+  "error_info": null
+}
